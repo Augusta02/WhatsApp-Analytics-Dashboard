@@ -218,7 +218,7 @@ def clean_data(uploaded_data):
 
 #  Enter name of the community 
 def main():
-    page = st.sidebar.selectbox("Choose a page", ['Home', 'Dashboard'])
+    page = st.sidebar.radio("Choose a page", ['Home', 'Dashboard'])
     # comm_name = " "
     # number_users = 0
     if page == 'Home':
@@ -241,7 +241,7 @@ def main():
               # ✅ Process .txt files (WhatsApp chat exports)
               if uploaded_file.type == "text/plain":
                   data = uploaded_file.read().decode("utf-8")
-                  st.success("File uploaded successfully!")
+                  st.success("File uploaded successfully and Processed, Go to Dashboard!")
                   # st.write("Preview of uploaded file content:")
                   # st.text(data[:500])  # Show the first 500 characters
 
