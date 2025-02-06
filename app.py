@@ -239,7 +239,7 @@ def main():
       st.write("Upload the WhatsApp data for cleaning (txt or csv format):")
       uploaded_file = st.file_uploader("Choose a file", type=["txt", "csv"])
 
-      if uploaded_file is not None and not st.session_state.file_uploaded:
+      if uploaded_file is not None:
           try:
               # ✅ Process .txt files (WhatsApp chat exports)
               if uploaded_file.type == "text/plain":
@@ -252,12 +252,11 @@ def main():
               elif uploaded_file.type == "text/csv":
                   cleaned_data = pd.read_csv(uploaded_file)
                   st.success("CSV file uploaded successfully!")
-                  # st.write(cleaned_data.head())  # Show preview of DataFrame
 
-              # ✅ Store cleaned data in session state for use in the Dashboard
-              st.session_state['cleaned_data'] = cleaned_data
+                  # ✅ Store cleaned data in session state for use in the Dashboard
+                  st.session_state['cleaned_data'] = cleaned_data
+
               st.session_state.file_uploaded = True
-
               st.success("File uploaded successfully! Processing the data...")
               
 
