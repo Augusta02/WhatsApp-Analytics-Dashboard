@@ -1,0 +1,993 @@
+date,time,message,day,month_number,month_name,hour,users,sentiment
+2023-02-24,10:37,I like d name already 🥰,Friday,2,February,10,Member1,Negative
+2023-02-24,10:44,"Hi everyone, my name is Ese, I am a data analyst. Please ignore the Madam. My mentor is just trying to hype me",Friday,2,February,10,Member1,Negative
+2023-02-24,10:46,Nice to meet you Ese,Friday,2,February,10,Member2,Positive
+2023-02-24,10:47,"Hello everyone, my name is Kemi, a Product designer. Its so nice to be here with you guys!",Friday,2,February,10,Member2,Positive
+2023-02-24,10:49,Nice to meet you Kem,Friday,2,February,10,Member1,Positive
+2023-02-24,10:57,No dey whyne naw😩😩,Friday,2,February,10,Member2,Negative
+2023-02-24,10:58,"Hi 👋 my name is Tomiwa, I’m a BDR in tech sale",Friday,2,February,10,Member3,Negative
+2023-02-24,10:58,Thank you,Friday,2,February,10,Member2,Negative
+2023-02-24,10:58,I’m excited to meet you guy,Friday,2,February,10,Member3,Positive
+2023-02-24,10:58,This looks really cool thoug,Friday,2,February,10,Member2,Positive
+2023-02-24,10:58,Nice to meet you Tomiwa,Friday,2,February,10,Member2,Positive
+2023-02-24,11:01,Ye,Friday,2,February,11,Member1,Negative
+2023-02-24,11:02,<Media omitted,Friday,2,February,11,Member1,Negative
+2023-02-24,11:03,Ok bos,Friday,2,February,11,Member1,Positive
+2023-02-24,11:03,It's a pleasure Tomi,Friday,2,February,11,Member1,Negative
+2023-02-24,11:18,Hi Everyone. My name is Eloho. Nice to meet you al,Friday,2,February,11,Member4,Positive
+2023-02-24,11:18,Nice to meet you E,Friday,2,February,11,Member1,Positive
+2023-02-24,11:19,Lol. Ese,Friday,2,February,11,Member4,Positive
+2023-02-24,11:36,Lol. Yea,Friday,2,February,11,Member4,Positive
+2023-02-24,11:41,Eloho.. finally nice to meet you ,Friday,2,February,11,Member2,Positive
+2023-02-24,11:42,Lol,Friday,2,February,11,Member4,Positive
+2023-02-24,11:43,Nice to meet you. What's your nam,Friday,2,February,11,Member4,Positive
+2023-02-24,11:44,Kem,Friday,2,February,11,Member2,Negative
+2023-02-24,11:44,Ok. Nice to meet you kem,Friday,2,February,11,Member4,Positive
+2023-02-24,11:56,,Friday,2,February,11,Member5,Negative
+2023-02-24,12:08,Why isn't d little bird cute as well🙄,Friday,2,February,12,Member1,Positive
+2023-02-24,15:38,_Hello everyone I'm Feyisara. It's really good to be here_❤️ (I'm shy and may not be commenting often😶,Friday,2,February,15,Member6,Positive
+2023-02-24,15:47,Welcom,Friday,2,February,15,Member4,Negative
+2023-02-24,16:48,Hi guys✨,Friday,2,February,16,Member7,Negative
+2023-02-24,16:57,<Media omitted,Friday,2,February,16,Member7,Negative
+2023-02-24,17:00,"Hi guys, I'm Similoluwa (you can just call me Simi), I'm a frontend developer, currently job hunting (in case you have openings)",Friday,2,February,17,Member8,Negative
+2023-02-24,17:02,"Hii Simi, great to e-meet you too",Friday,2,February,17,Member7,Positive
+2023-02-24,17:03,I listen to varietie,Friday,2,February,17,Member8,Negative
+2023-02-24,17:03,No specific,Friday,2,February,17,Member8,Negative
+2023-02-24,17:04,As long as it's good vibe,Friday,2,February,17,Member8,Positive
+2023-02-24,17:05,🫱🏼‍🫲🏽🫱🏼‍🫲,Friday,2,February,17,Member7,Negative
+2023-02-24,17:05,"Pop,indie, hip hop,blues, electronic, et",Friday,2,February,17,Member8,Negative
+2023-02-24,17:05,Welcom,Friday,2,February,17,Member4,Negative
+2023-02-24,17:06,Welcom,Friday,2,February,17,Member4,Negative
+2023-02-24,17:06,Thank you ,Friday,2,February,17,Member8,Negative
+2023-02-24,17:06,"I'm really into Jhene Aiko, Sza and aurora",Friday,2,February,17,Member7,Positive
+2023-02-24,17:06,Thank youu ,Friday,2,February,17,Member7,Negative
+2023-02-24,17:07,"Yeah, love their music ",Friday,2,February,17,Member8,Positive
+2023-02-24,17:08,You can try born tired by  Jhene Aiko,Friday,2,February,17,Member7,Negative
+2023-02-24,18:07,I will ,Friday,2,February,18,Member8,Negative
+2023-02-24,20:47,"Hello ladies, I’m Tracy, I’m a Program manager. I’m currently seeking new opportunities if you have any please link me ",Friday,2,February,20,Member9,Positive
+2023-02-24,20:52,Hi everyone,Friday,2,February,20,Member10,Negative
+2023-02-24,20:53,Super excited to be here ,Friday,2,February,20,Member10,Positive
+2023-02-24,20:55,Thank you 😊 @234903974657,Friday,2,February,20,Member10,Negative
+2023-02-24,20:55,Hello everyone welcomeeeeeee,Friday,2,February,20,Member11,Negative
+2023-02-24,20:57,<Media omitted,Friday,2,February,20,Member11,Negative
+2023-02-24,21:18,N u haven't called her for me🙄,Friday,2,February,21,Member1,Negative
+2023-02-24,21:18,<Media omitted,Friday,2,February,21,Member1,Negative
+2023-02-24,21:18,<Media omitted,Friday,2,February,21,Member1,Negative
+2023-02-24,21:19,Hello peopl,Friday,2,February,21,Member12,Negative
+2023-02-24,21:22,"@2349039746579, March 11th is governorship election day o",Friday,2,February,21,Member1,Negative
+2023-02-24,21:26,My fellow anime lover 🤗🫶🏾🫶,Friday,2,February,21,Member3,Negative
+2023-02-24,21:26,"Oh,how do I go about that please",Friday,2,February,21,Member8,Negative
+2023-02-24,21:27,@2348139115548 hi IJN ,Friday,2,February,21,Member8,Negative
+2023-02-24,21:41,🙌🙌,Friday,2,February,21,Member12,Negative
+2023-02-24,21:42,<Media omitted,Friday,2,February,21,Member12,Negative
+2023-02-24,21:43,My oga🙌,Friday,2,February,21,Member12,Negative
+2023-02-24,21:43,Hiiii,Friday,2,February,21,Member12,Negative
+2023-02-24,21:53,Hello Everyone,Friday,2,February,21,Member13,Negative
+2023-02-24,22:01,"How do I join Tunga community, please",Friday,2,February,22,Member8,Negative
+2023-02-24,22:04,What do you do,Friday,2,February,22,Member12,Negative
+2023-02-24,22:04,Frontend developmen,Friday,2,February,22,Member8,Negative
+2023-02-24,22:05,Can you dm me,Friday,2,February,22,Member12,Negative
+2023-02-24,22:06,"Yes, right awa",Friday,2,February,22,Member8,Positive
+2023-02-24,22:08,Hi ijeoma nice to e-meet you too ,Friday,2,February,22,Member7,Positive
+2023-02-24,22:54,Same here.☺,Friday,2,February,22,Member13,Negative
+2023-02-28,21:27,"Hi ladies, good evenin",Tuesday,2,February,21,Member14,Positive
+2023-02-28,21:45,Welcome on boar,Tuesday,2,February,21,Member10,Positive
+2023-02-28,22:05,"Hii Chidinma, it's nice to e-meet you ",Tuesday,2,February,22,Member7,Positive
+2023-02-28,22:50,Hii,Tuesday,2,February,22,Member11,Negative
+2023-03-01,15:13,Where are we looking at,Wednesday,3,March,15,Member13,Negative
+2023-03-01,15:13,Mainland or Island,Wednesday,3,March,15,Member13,Negative
+2023-03-01,15:14,Good question thoug,Wednesday,3,March,15,Member2,Positive
+2023-03-01,15:16,Lekki: We can do Wave Beach Elegushi cos of space and all. I attended a PIP hang-out there one time and it was cool,Wednesday,3,March,15,Member13,Positive
+2023-03-01,15:17,Please let's consider cost to,Wednesday,3,March,15,Member8,Negative
+2023-03-01,15:18,Cos there's still transpor,Wednesday,3,March,15,Member8,Negative
+2023-03-01,15:18,Especially if it's islan,Wednesday,3,March,15,Member8,Negative
+2023-03-01,15:34,I agree with you actuall,Wednesday,3,March,15,Member15,Negative
+2023-03-01,15:41,🤣,Wednesday,3,March,15,Member13,Negative
+2023-03-01,15:42,<Media omitted,Wednesday,3,March,15,Member15,Negative
+2023-03-01,16:03,"Chic Yaba/surulere Restaurant- LaCibo, Yard Stic",Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:12,For Lekki there’s so man,Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:18,The Cabin - Suruler,Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:23,High end restaurants with mad picture spots and good foo,Wednesday,3,March,16,Member3,Positive
+2023-03-01,16:24,Lmaooo wetin be dis😂😂,Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:24,@2347068459985 these places are the best for your heel,Wednesday,3,March,16,Member3,Positive
+2023-03-01,16:42,Personally I feel yaba is the middle ground for everyon,Wednesday,3,March,16,Member10,Negative
+2023-03-01,16:43,For someone coming from somewhere like Egbeda lekki isn’t middle groun,Wednesday,3,March,16,Member10,Negative
+2023-03-01,16:44,If we can decide on actual middle ground for everyone then we will be able to streamline the restaurants based off the chosen middle groun,Wednesday,3,March,16,Member10,Positive
+2023-03-01,16:45,Good evening everyon,Wednesday,3,March,16,Member10,Positive
+2023-03-01,16:46,I do but there’s only crappy restaurants in yaba so I don’t mind going to island or surulere. Surulere seems fai,Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:47,Also just a suggestion I think the date should be on a Saturday instead of a Sunday,Wednesday,3,March,16,Member4,Negative
+2023-03-01,16:48,Thank you for thinking of me🤭🤭🥹,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:48,Traffic tho ,Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:48,Yaba isn’t middle oh💀😭😭,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:49,Ah,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:49,Fr f,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:49,"Please, i will go with restaurants, not the beach",Wednesday,3,March,16,Member1,Negative
+2023-03-01,16:49,I know. Hmmm,Wednesday,3,March,16,Member4,Negative
+2023-03-01,16:49,I want pictures too💀😭,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:50,Sat n Sun has their traffic as well,Wednesday,3,March,16,Member1,Negative
+2023-03-01,16:50,"@2349039746579 can you turn the restaurants into polls, let see what the majority think",Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:50,You people want to hangout till dawn? ,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:50,Skrimm,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:50,<Media omitted,Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:50,"I don't understand, beach pic or restaurants pic",Wednesday,3,March,16,Member1,Negative
+2023-03-01,16:51,"Restaurant, heels, short dresses🥹🥹",Wednesday,3,March,16,Member15,Negative
+2023-03-01,16:51,Good. I dey with you be dat😄,Wednesday,3,March,16,Member1,Positive
+2023-03-01,16:52,"@2349039746579 if you agree oo, you can do 3 poll",Wednesday,3,March,16,Member3,Negative
+2023-03-01,16:59,Can you people help out with minimum amount to be spent on food?💀,Wednesday,3,March,16,Member15,Negative
+2023-03-01,17:46,"Good evening guys, I think this depends on where we agree to go (beach or a restaurant",Wednesday,3,March,17,Member14,Positive
+2023-03-01,17:48,There is no polls on if its a beach or a restauran,Wednesday,3,March,17,Member4,Negative
+2023-03-01,18:14,How about this coming Saturday instead of next,Wednesday,3,March,18,Member7,Negative
+2023-03-01,18:19,"Omo, I hope I'll be able to attend as it's looking 🥹",Wednesday,3,March,18,Member7,Positive
+2023-03-04,10:20,Mehn Yaba go hard small ooo but I’ll send some toda,Saturday,3,March,10,Member3,Negative
+2023-03-04,10:31,Afefelaye is not bad ,Saturday,3,March,10,Member11,Positive
+2023-03-04,10:34,Yes it isn’t but Afefeyeye is at Ikej,Saturday,3,March,10,Member3,Negative
+2023-03-04,10:36,O,Saturday,3,March,10,Member11,Negative
+2023-03-04,10:36,Where is it a,Saturday,3,March,10,Member11,Negative
+2023-03-04,10:36,Bia @2347062642356 give us options na,Saturday,3,March,10,Member11,Negative
+2023-03-04,10:36,@2348135207177 too,Saturday,3,March,10,Member11,Negative
+2023-03-04,10:36,Oh o,Saturday,3,March,10,Member11,Negative
+2023-03-04,10:38,"It’s not bad but it’s a lounge not a restaurant. I thought we were looking for chic places. If we don’t mind lounge, I might have a few ideas for yaba the",Saturday,3,March,10,Member3,Positive
+2023-03-04,10:41,This doesn’t look ba,Saturday,3,March,10,Member10,Negative
+2023-03-04,10:50,https://instagram.com/soulfood.lagos?igshid=MjkzY2Y1YTY,Saturday,3,March,10,Member3,Negative
+2023-03-04,10:50,Not soul food 💀,Saturday,3,March,10,Member15,Negative
+2023-03-04,10:50,Lol why,Saturday,3,March,10,Member3,Positive
+2023-03-04,10:53,<Media omitted,Saturday,3,March,10,Member15,Negative
+2023-03-04,10:53,I don’t like the plac,Saturday,3,March,10,Member15,Negative
+2023-03-04,10:53,What’s this explanation 💀😂😂,Saturday,3,March,10,Member15,Negative
+2023-03-04,10:54,<Media omitted,Saturday,3,March,10,Member1,Negative
+2023-03-04,10:54,<Media omitted,Saturday,3,March,10,Member1,Negative
+2023-03-04,10:54,Omo ,Saturday,3,March,10,Member7,Negative
+2023-03-04,10:55,Does it have to do with the food or the environment or just a personal choice,Saturday,3,March,10,Member3,Negative
+2023-03-04,10:57,😂😂😂Let me thin,Saturday,3,March,10,Member13,Negative
+2023-03-04,11:00,"I think this one is nice, haven’t been there th",Saturday,3,March,11,Member14,Positive
+2023-03-04,11:08,Yeah I’d love to try it ou,Saturday,3,March,11,Member3,Positive
+2023-03-04,11:09,Hard Rock Caf,Saturday,3,March,11,Member13,Negative
+2023-03-04,11:10,In yaba,Saturday,3,March,11,Member3,Negative
+2023-03-04,11:10,V,Saturday,3,March,11,Member13,Negative
+2023-03-04,11:15,Jude sister ,Saturday,3,March,11,Member11,Negative
+2023-03-04,11:15,<Media omitted,Saturday,3,March,11,Member13,Negative
+2023-03-04,11:30,Not ba,Saturday,3,March,11,Member8,Negative
+2023-03-04,11:30,I don't know anywhere in Lagos ,Saturday,3,March,11,Member8,Negative
+2023-03-04,11:31,"Lmaooo, I didn't pick the place nau😂",Saturday,3,March,11,Member8,Negative
+2023-03-04,11:31,Somewhere in Ikej,Saturday,3,March,11,Member8,Negative
+2023-03-04,11:34,Yea,Saturday,3,March,11,Member8,Negative
+2023-03-04,11:34,😂😂,Saturday,3,March,11,Member8,Negative
+2023-03-04,11:55,Omo what’s everyone’s budget like a targe,Saturday,3,March,11,Member9,Negative
+2023-03-04,11:57,Community manage,Saturday,3,March,11,Member11,Negative
+2023-03-04,11:57,Everything na poll 😭,Saturday,3,March,11,Member11,Negative
+2023-03-04,13:10,Rich people full here o,Saturday,3,March,13,Member13,Positive
+2023-03-04,13:10,<Media omitted,Saturday,3,March,13,Member13,Negative
+2023-03-04,13:38,🤣,Saturday,3,March,13,Member13,Negative
+2023-03-04,13:42,Likeee,Saturday,3,March,13,Member11,Negative
+2023-03-04,13:42,And na yiu first pick 10,Saturday,3,March,13,Member11,Positive
+2023-03-04,13:43,Abi make we just go Papies meatro,Saturday,3,March,13,Member11,Negative
+2023-03-04,13:44,As long as they will not say we should make a down payment.,Saturday,3,March,13,Member13,Negative
+2023-03-04,13:44,<Media omitted,Saturday,3,March,13,Member11,Negative
+2023-03-04,13:44,Lemaoo,Saturday,3,March,13,Member11,Negative
+2023-03-04,13:44,We go as,Saturday,3,March,13,Member11,Negative
+2023-03-04,13:46,"Yeah, it's cool",Saturday,3,March,13,Member13,Positive
+2023-03-04,13:46,Oya na,Saturday,3,March,13,Member13,Negative
+2023-03-04,14:19,The table is small. Shey it will contain enough foo,Saturday,3,March,14,Member15,Negative
+2023-03-04,14:54,No abeg😂,Saturday,3,March,14,Member8,Negative
+2023-03-04,14:54,It was crowded and noisy when I wen,Saturday,3,March,14,Member8,Negative
+2023-03-04,14:54,Rich women,Saturday,3,March,14,Member13,Positive
+2023-03-04,14:57,"How many are we,to start with",Saturday,3,March,14,Member8,Positive
+2023-03-04,14:57,We'd need somewhere that can accommodate us wel,Saturday,3,March,14,Member8,Negative
+2023-03-04,15:41,My thoughts to,Saturday,3,March,15,Member16,Negative
+2023-03-04,15:41,I think we should set a budget then we can fund restaurants that fit into the budget,Saturday,3,March,15,Member16,Positive
+2023-03-04,16:19,"Since most people picked 5k to 10k, we should look for restaurants within that rang",Saturday,3,March,16,Member8,Positive
+2023-03-04,16:43,Oh okay I just saw tha,Saturday,3,March,16,Member16,Positive
+2023-03-04,16:46,Yea,Saturday,3,March,16,Member8,Negative
+2023-03-04,16:47,What's the proposed date @234903974657,Saturday,3,March,16,Member8,Negative
+2023-03-04,17:02,Alrightt,Saturday,3,March,17,Member8,Negative
+2023-03-07,19:25,What about La Cibo in surulere,Tuesday,3,March,19,Member16,Negative
+2023-03-08,00:10,https://www.instagram.com/p/CguLKYrDezx/?igshid=YmMyMTA2M2Y,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:11,Anyone been to purple bistro before,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:12,Soul food,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:16,"Never been , but I just checked it ou",Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:16,Seems oka,Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:17,Yea,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:17,Someone mentioned she has been there and didn’t like i,Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:17,Don't know their price range th,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:17,O,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:17,"From this post you shared , someone in the comments also said soul food ain’t nic",Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:17,"Their menu is on their page , I just looked throug",Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:17,It’s fairly price,Wednesday,3,March,0,Member10,Positive
+2023-03-08,00:18,<Media omitted,Wednesday,3,March,0,Member10,Negative
+2023-03-08,00:20,Didn't even chec,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:20,O,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:20,Oh,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:21,Maybe we can try the,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:21,Let's see other suggestions and pick on,Wednesday,3,March,0,Member8,Negative
+2023-03-08,00:24,Alrigh,Wednesday,3,March,0,Member10,Negative
+2023-03-08,08:14,Nop,Wednesday,3,March,8,Member11,Negative
+2023-03-08,08:14,Nicee,Wednesday,3,March,8,Member11,Negative
+2023-03-08,08:14,H,Wednesday,3,March,8,Member11,Negative
+2023-03-08,08:15,O,Wednesday,3,March,8,Member11,Negative
+2023-03-08,08:21,Yea,Wednesday,3,March,8,Member8,Negative
+2023-03-08,08:21,Their menu looks reasonable to,Wednesday,3,March,8,Member8,Positive
+2023-03-08,08:21,Happy women's day,Wednesday,3,March,8,Member8,Positive
+2023-03-08,09:06,"She is a Dreamer, she is a believer, she is a doer, she is an achiever, and that she is “You”. Happy Women's Day😍",Wednesday,3,March,9,Member1,Positive
+2023-03-08,13:38,"Yeah, it looks nice to",Wednesday,3,March,13,Member14,Positive
+2023-03-08,21:33,Is it true election has been postponed to 18th,Wednesday,3,March,21,Member8,Positive
+2023-03-08,21:35,I just saw it o. 😂😂,Wednesday,3,March,21,Member4,Negative
+2023-03-08,21:35,"Someone mentioned, I've not confirme",Wednesday,3,March,21,Member8,Negative
+2023-03-08,21:36,"If it's true,that means we have to do this weeken",Wednesday,3,March,21,Member8,Negative
+2023-03-08,21:36,Why tho,Wednesday,3,March,21,Member8,Negative
+2023-03-08,21:39,H,Wednesday,3,March,21,Member11,Negative
+2023-03-08,21:39,Wahal,Wednesday,3,March,21,Member11,Negative
+2023-03-08,21:40,Na w,Wednesday,3,March,21,Member8,Negative
+2023-03-08,21:43,This country se,Wednesday,3,March,21,Member8,Negative
+2023-03-08,21:44,I don't know wh,Wednesday,3,March,21,Member4,Negative
+2023-03-08,22:01,Please o. Let's do Lekki. I think that yaba is really not so easily accessible for people like us that stay in Ajah Lagos and do not have vehicle,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:02,Also I joined the group with the initial plan being on the island from my understandin,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:03,How about those that stay in places like ikotun and Ogba,Wednesday,3,March,22,Member11,Negative
+2023-03-08,22:03,Yaba is a central locatio,Wednesday,3,March,22,Member11,Negative
+2023-03-08,22:03,It being on the mainland might not be ok for some of us e.g me or maybe I am wrong,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:03,Not to everyone. But it's my opinio,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:04,We aalrady voted and we have more people who went with yab,Wednesday,3,March,22,Member11,Positive
+2023-03-08,22:04,Yea,Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:04,Her,Wednesday,3,March,22,Member11,Negative
+2023-03-08,22:04,@2348160204836 sorry but did you just join the group ,Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:05,No,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:05,But its ok,Wednesday,3,March,22,Member4,Positive
+2023-03-08,22:05,"So you were here when we discussed the location , voted ,before going on to choose a restauran",Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:05,Ok. No p. Its all goo,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:05,Taking us back to location is making us run around in circle,Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:06,You should have made your reservations known sinc,Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:06,It's all goo,Wednesday,3,March,22,Member4,Negative
+2023-03-08,22:06,So we would have put heads together to find a way to make things work ,Wednesday,3,March,22,Member10,Negative
+2023-03-08,22:09,I have SCA event on 25th o,Wednesday,3,March,22,Member8,Negative
+2023-03-08,22:09,Sm,Wednesday,3,March,22,Member8,Negative
+2023-03-08,22:10,Who doesn't,Wednesday,3,March,22,Member8,Negative
+2023-03-08,22:11,,Wednesday,3,March,22,Member8,Negative
+2023-03-08,22:20,11th🙏,Wednesday,3,March,22,Member8,Negative
+2023-03-08,22:21,I’m fine with i,Wednesday,3,March,22,Member3,Positive
+2023-03-09,08:54,"I think we should just decide on a date, it's Thursday already,11th is Saturda",Thursday,3,March,8,Member8,Negative
+2023-03-09,09:33,What's the other option asides 11th,Thursday,3,March,9,Member8,Negative
+2023-03-09,09:58,What happened to 18,Thursday,3,March,9,Member15,Negative
+2023-03-09,10:01,I a,Thursday,3,March,10,Member15,Negative
+2023-03-09,10:04,I just realized they postponed electio,Thursday,3,March,10,Member15,Negative
+2023-03-09,10:04,Sorr,Thursday,3,March,10,Member15,Negative
+2023-03-21,18:15,Good evening ladie,Tuesday,3,March,18,Member8,Positive
+2023-03-21,18:15,<Media omitted,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:15,How's everyone,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:15,"We're still meeting this Sunday,yeah",Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:15,I am Fin,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:16,Supposedl,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:16,But with the way things are in the country r,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:16,I'm jigg,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:16,As how ma?,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:17,R,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:20,Lo,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:21,@2347062642356 @2348135207177 @2347031945084 @2348139115548 @2348026283181 @2348142714633 @2347061351238 @2347068459985 @2348025059406 @2348027527125 @2348160204836 @2348135743799 @2348063239710 @234808665327,Tuesday,3,March,18,Member11,Negative
+2023-03-21,18:22,3pm ab,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:23,💃,Tuesday,3,March,18,Member12,Negative
+2023-03-21,18:24,Can’t waittt,Tuesday,3,March,18,Member15,Negative
+2023-03-21,18:25,<Media omitted,Tuesday,3,March,18,Member8,Negative
+2023-03-21,18:25,Yes ma'a,Tuesday,3,March,18,Member8,Negative
+2023-03-21,19:09,Wher,Tuesday,3,March,19,Member3,Negative
+2023-03-21,19:09,A,Tuesday,3,March,19,Member10,Negative
+2023-03-21,19:09,Was even saying 3pm is lat,Tuesday,3,March,19,Member10,Negative
+2023-03-21,19:10,Purple Bistr,Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:10,This woman is saying 4pm 🤣,Tuesday,3,March,19,Member10,Negative
+2023-03-21,19:10,Wahal,Tuesday,3,March,19,Member10,Negative
+2023-03-21,19:10,Let’s make it 3pm na,Tuesday,3,March,19,Member9,Negative
+2023-03-21,19:10,I think we should make it earlier sh,Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:10,Or earlie,Tuesday,3,March,19,Member9,Negative
+2023-03-21,19:10,Some people are coming from island and stuf,Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:10,2 or 3p,Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:10,"If we say 4, people will still come by 5",Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:10,Please I have church… if it’s early I probably won’t com,Tuesday,3,March,19,Member3,Positive
+2023-03-21,19:11,I’m coming from mainland sha but Abeg ,Tuesday,3,March,19,Member9,Negative
+2023-03-21,19:11,2 or ,Tuesday,3,March,19,Member9,Negative
+2023-03-21,19:11,"So let's say 2 or 3,so people can sha reach by 4 latest ",Tuesday,3,March,19,Member8,Positive
+2023-03-21,19:11,When does church end,Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:11,Depends on the activity after church. I think 3pm is still fin,Tuesday,3,March,19,Member3,Negative
+2023-03-21,19:11,"Hm, alrigh",Tuesday,3,March,19,Member8,Negative
+2023-03-21,19:28,Same her,Tuesday,3,March,19,Member11,Negative
+2023-03-21,19:28,"But early or not, I’ll be ther",Tuesday,3,March,19,Member11,Positive
+2023-03-21,19:33,2 is still ok thoug,Tuesday,3,March,19,Member2,Positive
+2023-03-21,19:33,Abi o,Tuesday,3,March,19,Member2,Negative
+2023-03-21,20:38,💃🏽💃,Tuesday,3,March,20,Member14,Negative
+2023-03-24,09:59,Sorr,Friday,3,March,9,Member15,Negative
+2023-03-24,09:59,<Media omitted,Friday,3,March,9,Member15,Negative
+2023-03-24,10:38,"I don't think I'll be able to make it too, because I'll also be fasting 🐧",Friday,3,March,10,Member7,Positive
+2023-03-25,12:39,Hello peopl,Saturday,3,March,12,Member11,Negative
+2023-03-25,12:39,<Media omitted,Saturday,3,March,12,Member8,Negative
+2023-03-25,13:32,,Saturday,3,March,13,Member9,Negative
+2023-03-25,13:32,<Media omitted,Saturday,3,March,13,Member9,Negative
+2023-03-25,13:35,Lemaoo,Saturday,3,March,13,Member11,Negative
+2023-03-26,08:54,Can't wait to meet youuuuu🤭,Sunday,3,March,8,Member8,Negative
+2023-03-26,08:59,<Media omitted,Sunday,3,March,8,Member8,Negative
+2023-03-26,09:03,<Media omitted,Sunday,3,March,9,Member1,Negative
+2023-03-26,09:12,<Media omitted,Sunday,3,March,9,Member12,Negative
+2023-03-26,14:04,"Time is 3, yea",Sunday,3,March,14,Member8,Negative
+2023-03-26,14:05,"I still dey church, people ",Sunday,3,March,14,Member12,Negative
+2023-03-26,14:06,Be like say na dinner we wan d,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:06,<Media omitted,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:07,Me to,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:07,But we would start at 3 sh,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:07,@2349039746579 where are yiu r,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:08,Dinner works for me oh💀,Sunday,3,March,14,Member15,Negative
+2023-03-26,14:09,Lma,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:10,Lemaoo,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:10,We're not doing dinner o,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:10,<Media omitted,Sunday,3,March,14,Member15,Negative
+2023-03-26,14:10,You are on your ow,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:10,We are starting at 3 sh,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:10,The rest of us would catch up late,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:10,I was kidding 😂😂,Sunday,3,March,14,Member15,Negative
+2023-03-26,14:10,<Media omitted,Sunday,3,March,14,Member15,Negative
+2023-03-26,14:10,I want to live through yo,Sunday,3,March,14,Member15,Positive
+2023-03-26,14:10,Abeg go 🫠,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:10,<Media omitted,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:13,<Media omitted,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:22,https://www.instagram.com/p/CqJTetKIFT4/?igshid=YmMyMTA2M2Y,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:22,https://www.instagram.com/p/CqJTYFuo14J/?igshid=YmMyMTA2M2Y,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:23,Just go tro so you have an idea on what they have ther,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:36,<Media omitted,Sunday,3,March,14,Member1,Negative
+2023-03-26,14:37,This message was delete,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:44,"Might be running about an hour late,had to do somethin",Sunday,3,March,14,Member8,Negative
+2023-03-26,14:44,🤲,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:48,Lemao,Sunday,3,March,14,Member11,Negative
+2023-03-26,14:48,😂,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:48,"I'm hustling for daily bread,sorr",Sunday,3,March,14,Member8,Negative
+2023-03-26,14:48,Have to send in an applicatio,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:48,😂🤲,Sunday,3,March,14,Member8,Negative
+2023-03-26,14:49,We go fine the 3pm people if they come late abe,Sunday,3,March,14,Member11,Positive
+2023-03-26,14:50,😩 I’m on my way edaku,Sunday,3,March,14,Member14,Negative
+2023-03-26,15:04,Yayyy,Sunday,3,March,15,Member11,Negative
+2023-03-26,15:04,I still dey churc,Sunday,3,March,15,Member12,Negative
+2023-03-26,15:05,Almost there o,Sunday,3,March,15,Member9,Negative
+2023-03-26,15:05,"Lmaoo, morning mass gen",Sunday,3,March,15,Member8,Negative
+2023-03-26,15:06,Lma,Sunday,3,March,15,Member8,Negative
+2023-03-26,15:25,Very small,Sunday,3,March,15,Member8,Negative
+2023-03-26,15:27,I a,Sunday,3,March,15,Member9,Negative
+2023-03-26,15:27,5mins awa,Sunday,3,March,15,Member9,Negative
+2023-03-26,15:42,Alrigh,Sunday,3,March,15,Member8,Negative
+2023-03-26,15:48,Nic,Sunday,3,March,15,Member11,Negative
+2023-03-26,15:56,<Media omitted,Sunday,3,March,15,Member8,Negative
+2023-03-26,16:09,I'm on my way,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:09,<Media omitted,Sunday,3,March,16,Member1,Negative
+2023-03-26,16:13,Send pictures peopl,Sunday,3,March,16,Member4,Negative
+2023-03-26,16:20,"Please, someone will volunteer to take my pictures o",Sunday,3,March,16,Member8,Negative
+2023-03-26,16:20,There's traffic ,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:22,Please send on,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:29,I’m on my way guys ,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:30,Partner in lateness ,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:30,<Media omitted,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:30,My dear o ,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:30,Please I'm on my way too ,Sunday,3,March,16,Member2,Negative
+2023-03-26,16:31,Mehn I almost wasn’t going to com,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:31,Menstrual cramps wanted to kill my vib,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:32,Arg,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:32,Devil is a lia,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:32,Liar,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:32,Sorr,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:32,I'm almost ther,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:35,I'm her,Sunday,3,March,16,Member8,Negative
+2023-03-26,16:37,Thank you babe,Sunday,3,March,16,Member10,Negative
+2023-03-26,16:37,Great ,Sunday,3,March,16,Member10,Positive
+2023-03-26,16:39,<Media omitted,Sunday,3,March,16,Member14,Negative
+2023-03-26,17:03,Please is the place exactly opposite FCMB ,Sunday,3,March,17,Member10,Negative
+2023-03-26,17:04,Is it inside a street ,Sunday,3,March,17,Member10,Negative
+2023-03-26,17:05,Or on the road ,Sunday,3,March,17,Member10,Negative
+2023-03-26,17:05,N,Sunday,3,March,17,Member11,Negative
+2023-03-26,17:05,On the roa,Sunday,3,March,17,Member11,Negative
+2023-03-26,17:05,The road of FCM,Sunday,3,March,17,Member11,Negative
+2023-03-26,17:05,Oka,Sunday,3,March,17,Member10,Negative
+2023-03-26,19:29,"So @2349039746579, you guys forgot us here abi😞😞 not even 1 pic🙄",Sunday,3,March,19,Member1,Negative
+2023-03-26,19:31,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:31,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:35,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:35,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:35,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:35,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:35,<Media omitted,Sunday,3,March,19,Member11,Negative
+2023-03-26,19:40,Finally,Sunday,3,March,19,Member1,Negative
+2023-03-26,19:52,I've gotten home guy,Sunday,3,March,19,Member8,Negative
+2023-03-26,19:53,I’m home to,Sunday,3,March,19,Member3,Negative
+2023-03-26,19:54,It was nice meeting you all🤭,Sunday,3,March,19,Member8,Positive
+2023-03-26,19:56,You too❤,Sunday,3,March,19,Member3,Negative
+2023-03-26,20:04,I’m hom,Sunday,3,March,20,Member9,Negative
+2023-03-26,20:13,Just got in guys ! Mehn today was awesome ,Sunday,3,March,20,Member10,Positive
+2023-03-26,20:13,So happy to have met you all ,Sunday,3,March,20,Member10,Positive
+2023-03-26,21:00,I just got hom,Sunday,3,March,21,Member11,Negative
+2023-03-26,21:01,Thank you for hosting us 😚,Sunday,3,March,21,Member8,Negative
+2023-03-26,21:30,Gotten home too... So nice meeting everyone 🥰,Sunday,3,March,21,Member2,Positive
+2023-03-26,21:41,"I got home a while ago, forgot to drop it here",Sunday,3,March,21,Member14,Negative
+2023-03-31,10:25,Lemaooo,Friday,3,March,10,Member11,Negative
+2023-03-31,10:26,Oya,Friday,3,March,10,Member7,Negative
+2023-03-31,10:26,Does it involve sharing of  moniess 😂,Friday,3,March,10,Member7,Negative
+2023-03-31,10:31,<Media omitted,Friday,3,March,10,Member11,Negative
+2023-03-31,10:32,Clown!!!😭😂😂,Friday,3,March,10,Member11,Negative
+2023-03-31,10:34,<Media omitted,Friday,3,March,10,Member1,Negative
+2023-03-31,10:34,So it's testimony tym n,Friday,3,March,10,Member1,Negative
+2023-03-31,10:34,Nti,Friday,3,March,10,Member1,Negative
+2023-03-31,10:34,Na u i no wan tell work t,Friday,3,March,10,Member1,Positive
+2023-03-31,10:35,<Media omitted,Friday,3,March,10,Member1,Negative
+2023-03-31,10:36,<Media omitted,Friday,3,March,10,Member1,Negative
+2023-03-31,11:04,Please do you have contacts,Friday,3,March,11,Member8,Negative
+2023-03-31,11:05,It'll help my thesis 🤲,Friday,3,March,11,Member8,Negative
+2023-03-31,12:26,<Media omitted,Friday,3,March,12,Member8,Negative
+2023-03-31,14:49,<Media omitted,Friday,3,March,14,Member10,Negative
+2023-03-31,15:41,<Media omitted,Friday,3,March,15,Member14,Negative
+2023-04-01,21:17,Need acces,Saturday,4,April,21,Member3,Negative
+2023-04-01,21:26,😂😂😂😂😂,Saturday,4,April,21,Member8,Negative
+2023-04-01,21:28,lmfao😂,Saturday,4,April,21,Member16,Negative
+2023-04-01,21:29,Thank you for your service to humanit,Saturday,4,April,21,Member8,Negative
+2023-04-02,00:25,Wow ! Amazing job babes ,Sunday,4,April,0,Member10,Positive
+2023-04-03,16:22,Who dey....,Monday,4,April,16,Member12,Negative
+2023-04-03,16:23,😹,Monday,4,April,16,Member12,Negative
+2023-04-03,16:23,Use oror,Monday,4,April,16,Member12,Negative
+2023-04-03,16:24,Lemaoo,Monday,4,April,16,Member11,Negative
+2023-04-03,16:24,E cos,Monday,4,April,16,Member11,Negative
+2023-04-03,16:25,<Media omitted,Monday,4,April,16,Member12,Negative
+2023-04-03,16:28,Hair vendor don run me street and my birthday is on Tuesda,Monday,4,April,16,Member11,Negative
+2023-04-03,16:28,I never do photo shoot ,Monday,4,April,16,Member11,Negative
+2023-04-03,16:30,<Media omitted,Monday,4,April,16,Member12,Negative
+2023-04-03,16:31,<Media omitted,Monday,4,April,16,Member13,Negative
+2023-04-03,16:32,<Media omitted,Monday,4,April,16,Member11,Negative
+2023-04-03,16:32,I fit fight like thi,Monday,4,April,16,Member11,Positive
+2023-04-03,16:33,Like tomorrow,Monday,4,April,16,Member1,Negative
+2023-04-03,16:33,<Media omitted,Monday,4,April,16,Member15,Negative
+2023-04-03,16:33,Next wee,Monday,4,April,16,Member11,Negative
+2023-04-03,16:33,Oh,Monday,4,April,16,Member1,Negative
+2023-04-03,16:34,What is the excuse,Monday,4,April,16,Member1,Negative
+2023-04-03,16:34,You still get tim,Monday,4,April,16,Member12,Negative
+2023-04-03,16:34,Exactl,Monday,4,April,16,Member1,Negative
+2023-04-03,16:34,She say na china people ,Monday,4,April,16,Member11,Negative
+2023-04-03,16:34,Hurrrr,Monday,4,April,16,Member11,Negative
+2023-04-03,16:34,Guy,Monday,4,April,16,Member11,Negative
+2023-04-03,16:34,Meanwhile abeg who know a really good studio on the mainland abe,Monday,4,April,16,Member11,Positive
+2023-04-03,16:35,And a good natural hair stylist abe,Monday,4,April,16,Member11,Positive
+2023-04-03,16:35,My dear better use another hair or buy anothe,Monday,4,April,16,Member1,Positive
+2023-04-03,16:35,No ,Monday,4,April,16,Member11,Negative
+2023-04-03,16:35,Just pre order ,Monday,4,April,16,Member11,Negative
+2023-04-03,16:35,The thing just Dey bite m,Monday,4,April,16,Member11,Negative
+2023-04-03,16:35,Rubbis,Monday,4,April,16,Member11,Negative
+2023-04-03,16:36,O'Natura,Monday,4,April,16,Member1,Negative
+2023-04-03,16:36,<Media omitted,Monday,4,April,16,Member1,Negative
+2023-04-03,16:37,It will come but not wen u need it. Dat is y I'm saying use another. I was there last yr Oct. After work i just slept i no kill mysel,Monday,4,April,16,Member1,Negative
+2023-04-03,16:39,Me m,Monday,4,April,16,Member15,Negative
+2023-04-03,16:40,If you have extra bucks sha,Monday,4,April,16,Member15,Negative
+2023-04-03,16:40,Goo,Monday,4,April,16,Member1,Negative
+2023-04-03,17:05,Lagos vendors have shown me shege since I moved here,Monday,4,April,17,Member8,Negative
+2023-04-03,17:06,I have a dress with vendor and she said she's starting delivery after I've traveled ,Monday,4,April,17,Member8,Negative
+2023-04-03,17:06,<Media omitted,Monday,4,April,17,Member8,Negative
+2023-04-03,17:06,Dress that I need to take alon,Monday,4,April,17,Member8,Negative
+2023-04-03,17:06,<Media omitted,Monday,4,April,17,Member8,Negative
+2023-04-03,17:07,<Media omitted,Monday,4,April,17,Member1,Negative
+2023-04-03,17:07,<Media omitted,Monday,4,April,17,Member8,Negative
+2023-04-03,17:07,I'll have to change delivery locatio,Monday,4,April,17,Member8,Negative
+2023-04-03,17:07,You go dey trust Lagos vendors 🤣😂🤣,Monday,4,April,17,Member1,Negative
+2023-04-03,17:07,I no dey lear,Monday,4,April,17,Member8,Negative
+2023-04-03,17:07,Sorry o,Monday,4,April,17,Member1,Negative
+2023-04-03,17:08,<Media omitted,Monday,4,April,17,Member8,Negative
+2023-04-03,17:12,,Monday,4,April,17,Member8,Negative
+2023-04-03,17:13,Aa,Monday,4,April,17,Member10,Negative
+2023-04-03,17:13,What’s this slander of Lagos vendors going on her,Monday,4,April,17,Member10,Negative
+2023-04-03,17:14,Abeg you guys should take it easy on u,Monday,4,April,17,Member10,Positive
+2023-04-03,17:14,Well I am a Lagos vendor and I delive,Monday,4,April,17,Member10,Negative
+2023-04-03,17:15,<Media omitted,Monday,4,April,17,Member1,Negative
+2023-04-03,17:15,If an item is something you need within a certain time frame please let the vendor know before you delive,Monday,4,April,17,Member10,Positive
+2023-04-03,17:15,Before you order ,Monday,4,April,17,Member10,Negative
+2023-04-03,17:15,A trial will prove if truly you deliver,Monday,4,April,17,Member1,Negative
+2023-04-03,17:16,"Omo,she told me something els",Monday,4,April,17,Member8,Negative
+2023-04-03,17:16,"Even at dat, their first priority is get d payment then after dey will start giving you excuse",Monday,4,April,17,Member1,Positive
+2023-04-03,17:16,<Media omitted,Monday,4,April,17,Member8,Negative
+2023-04-03,17:17,Exactl,Monday,4,April,17,Member8,Negative
+2023-04-03,17:17,My business is mostly on preorder and for me to not have had any callouts for the past 7yrs I’ve been in business should be enough proof o ,Monday,4,April,17,Member10,Positive
+2023-04-03,17:17,Omo I don’t know who you guys have been meeting ,Monday,4,April,17,Member10,Negative
+2023-04-03,17:17,Purrrrr,Monday,4,April,17,Member8,Negative
+2023-04-03,17:17,But once an order is time boun,Monday,4,April,17,Member10,Negative
+2023-04-03,17:17,I either don’t take i,Monday,4,April,17,Member10,Negative
+2023-04-03,17:17,Or let you know straight u,Monday,4,April,17,Member10,Positive
+2023-04-03,17:18,I will try my best to get it here earlier but let you know it’s a 50/50 chanc,Monday,4,April,17,Member10,Positive
+2023-04-03,17:18,<Media omitted,Monday,4,April,17,Member1,Negative
+2023-04-03,17:18,Yass babe ! Big purrr 💅,Monday,4,April,17,Member10,Negative
+2023-04-03,17:19,Terrific o,Monday,4,April,17,Member1,Negative
+2023-04-03,17:19,<Media omitted,Monday,4,April,17,Member10,Negative
+2023-04-03,17:21,I always tell my clients straight u,Monday,4,April,17,Member10,Positive
+2023-04-03,17:23,Where abe,Monday,4,April,17,Member11,Negative
+2023-04-03,17:23,Guy,Monday,4,April,17,Member11,Negative
+2023-04-03,17:23,Abeg shar,Monday,4,April,17,Member11,Negative
+2023-04-03,17:23,Lol abeg g,Monday,4,April,17,Member11,Positive
+2023-04-03,17:24,No n,Monday,4,April,17,Member11,Negative
+2023-04-03,17:24,H,Monday,4,April,17,Member11,Negative
+2023-04-03,17:24,Lemaoo,Monday,4,April,17,Member11,Negative
+2023-04-03,17:25,<Media omitted,Monday,4,April,17,Member1,Negative
+2023-04-03,17:42,What hai,Monday,4,April,17,Member15,Negative
+2023-04-03,17:42,I dey com,Monday,4,April,17,Member15,Negative
+2023-04-03,17:43,https://instagram.com/_k0lade?igshid=YmMyMTA2M2Y,Monday,4,April,17,Member15,Negative
+2023-04-03,18:22,Abeg I no get another mone,Monday,4,April,18,Member11,Negative
+2023-04-03,18:22,Thank,Monday,4,April,18,Member11,Negative
+2023-04-03,18:33,Should i still send description,Monday,4,April,18,Member1,Negative
+2023-04-03,18:34,Her is freaking cheap sha,Monday,4,April,18,Member15,Positive
+2023-04-03,18:35,<Media omitted,Monday,4,April,18,Member15,Negative
+2023-04-03,18:35,<Media omitted,Monday,4,April,18,Member15,Negative
+2023-04-03,18:35,<Media omitted,Monday,4,April,18,Member15,Negative
+2023-04-03,18:35,<Media omitted,Monday,4,April,18,Member15,Negative
+2023-04-03,20:45,Me to,Monday,4,April,20,Member4,Negative
+2023-04-03,20:47,I like this. Will reach out to you when I am ready to bu,Monday,4,April,20,Member4,Positive
+2023-04-03,20:47,Ye,Monday,4,April,20,Member11,Negative
+2023-04-03,20:48,Le to the maoo,Monday,4,April,20,Member11,Negative
+2023-04-03,20:48,You better come and join m,Monday,4,April,20,Member11,Positive
+2023-04-03,20:51,Lol. Omo I have not been working out but I want to start. I am thinking ifitness in Aja,Monday,4,April,20,Member4,Positive
+2023-04-03,20:57,O,Monday,4,April,20,Member11,Negative
+2023-04-03,21:42,Where is it in ajah,Monday,4,April,21,Member15,Negative
+2023-04-03,21:43,"Badore, just after allied Gardens Estat",Monday,4,April,21,Member4,Negative
+2023-04-04,07:39,Bette,Tuesday,4,April,7,Member11,Negative
+2023-04-04,08:16,Please can we attend GTCO food and drink event this yea,Tuesday,4,April,8,Member11,Negative
+2023-04-04,08:18,I missed last year',Tuesday,4,April,8,Member13,Negative
+2023-04-04,08:18,I would love to atten,Tuesday,4,April,8,Member13,Positive
+2023-04-04,08:19,O,Tuesday,4,April,8,Member11,Negative
+2023-04-04,08:23,Yss,Tuesday,4,April,8,Member15,Negative
+2023-04-04,15:37,Correc,Tuesday,4,April,15,Member11,Negative
+2023-04-04,15:38,Please is is available for a telemarketing rol,Tuesday,4,April,15,Member11,Positive
+2023-04-04,15:38,The first 3 days would be a physical training at V,Tuesday,4,April,15,Member11,Positive
+2023-04-04,15:39,I have a good number of applicants already but thought to share her,Tuesday,4,April,15,Member11,Positive
+2023-04-04,15:45,Is prior experience needed,Tuesday,4,April,15,Member8,Negative
+2023-04-04,16:06,Me ☝,Tuesday,4,April,16,Member6,Negative
+2023-04-04,16:06,Just know how to use excel and talk to peopl,Tuesday,4,April,16,Member11,Negative
+2023-04-04,16:06,Dm for lin,Tuesday,4,April,16,Member11,Negative
+2023-04-04,16:07,Must be in Lagos pleas,Tuesday,4,April,16,Member11,Negative
+2023-04-04,16:07,I actually applied befor,Tuesday,4,April,16,Member8,Negative
+2023-04-04,16:07,O,Tuesday,4,April,16,Member11,Negative
+2023-04-04,16:07,O,Tuesday,4,April,16,Member6,Negative
+2023-04-05,07:25,My hair is here ooo😭🥳🥳🥳🎊🎊🎊💃💃💃🎉🎉,Wednesday,4,April,7,Member11,Negative
+2023-04-05,07:30,<Media omitted,Wednesday,4,April,7,Member2,Negative
+2023-04-05,07:42,I’m interested but I don’t have any priror experienc,Wednesday,4,April,7,Member15,Positive
+2023-04-05,07:43,Is it filled?🥹,Wednesday,4,April,7,Member15,Negative
+2023-04-05,07:43,Your God doesn’t wear flipflop 🥳🥳🥳🥳,Wednesday,4,April,7,Member15,Negative
+2023-04-05,07:43,<Media omitted,Wednesday,4,April,7,Member15,Negative
+2023-04-05,08:45,💃🏾💃🏾💃🏾💃,Wednesday,4,April,8,Member10,Negative
+2023-04-05,08:46,Birthdays about to be lit ,Wednesday,4,April,8,Member10,Negative
+2023-04-05,09:01,Yes bo,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:01,Yes oo,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:01,Yasss,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:38,<Media omitted,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:38,<Media omitted,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:38,My hairrr😭😂😂🥳🥳🥳🥳,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:39,Came with birthday gifts 🤩🎊🎊💃💃,Wednesday,4,April,9,Member11,Negative
+2023-04-05,09:39,We aren’t ready for what’s about to hit us o 💃🏾💃🏾💃,Wednesday,4,April,9,Member10,Positive
+2023-04-05,09:39,<Media omitted,Wednesday,4,April,9,Member1,Negative
+2023-04-05,10:43,When you see a new on,Wednesday,4,April,10,Member15,Positive
+2023-04-05,10:47,At all,Wednesday,4,April,10,Member11,Negative
+2023-04-05,10:47,O,Wednesday,4,April,10,Member11,Negative
+2023-04-05,14:44,Hello my peopl,Wednesday,4,April,14,Member11,Negative
+2023-04-05,14:44,Abeg pedicure plug on the mainland,Wednesday,4,April,14,Member11,Negative
+2023-04-07,09:17,<Media omitted,Friday,4,April,9,Member15,Negative
+2023-04-07,09:25,<Media omitted,Friday,4,April,9,Member10,Negative
+2023-04-07,09:25,This girl is not well ,Friday,4,April,9,Member10,Negative
+2023-04-07,09:26,Come and enter heaven let me see na @234903974657,Friday,4,April,9,Member1,Negative
+2023-04-07,09:26,<Media omitted,Friday,4,April,9,Member1,Negative
+2023-04-07,09:26,<Media omitted,Friday,4,April,9,Member1,Negative
+2023-04-07,09:44,<Media omitted,Friday,4,April,9,Member8,Negative
+2023-04-07,09:45,Are you going for that amapiano thing you posted on your status,Friday,4,April,9,Member8,Negative
+2023-04-07,09:51,Lemaooo,Friday,4,April,9,Member11,Negative
+2023-04-07,09:51,Gosh😭,Friday,4,April,9,Member11,Negative
+2023-04-07,09:51,At al,Friday,4,April,9,Member11,Negative
+2023-04-07,10:16,See you there,Friday,4,April,10,Member8,Negative
+2023-04-07,10:22,Come enter n,Friday,4,April,10,Member1,Negative
+2023-04-08,09:43,Thank you oo,Saturday,4,April,9,Member11,Negative
+2023-04-08,09:46,<Media omitted,Saturday,4,April,9,Member1,Negative
+2023-04-08,09:47,I'm looking forward to see the hai,Saturday,4,April,9,Member1,Negative
+2023-04-08,09:59,Yaaayyy🤭🤭,Saturday,4,April,9,Member15,Negative
+2023-04-08,09:59,And the look se,Saturday,4,April,9,Member15,Negative
+2023-04-08,10:02,Lo,Saturday,4,April,10,Member11,Negative
+2023-04-08,10:03,<Media omitted,Saturday,4,April,10,Member11,Negative
+2023-04-08,10:03,<Media omitted,Saturday,4,April,10,Member11,Negative
+2023-04-08,10:04,That’s awesome ,Saturday,4,April,10,Member10,Positive
+2023-04-08,10:04,Your hair is lush ,Saturday,4,April,10,Member10,Positive
+2023-04-08,10:04,Love it ,Saturday,4,April,10,Member10,Positive
+2023-04-08,10:09,<Media omitted,Saturday,4,April,10,Member1,Negative
+2023-04-08,18:17,Tainzzz,Saturday,4,April,18,Member11,Negative
+2023-04-08,18:18,<Media omitted,Saturday,4,April,18,Member11,Negative
+2023-04-08,18:53,Fine woman🤭🤭🤩,Saturday,4,April,18,Member15,Positive
+2023-04-08,18:53,<Media omitted,Saturday,4,April,18,Member15,Negative
+2023-04-09,11:33,<Media omitted,Sunday,4,April,11,Member11,Negative
+2023-04-09,11:45,Ouuu,Sunday,4,April,11,Member16,Negative
+2023-04-09,11:45,Happ birthday b @234813520717,Sunday,4,April,11,Member16,Negative
+2023-04-09,12:15,Happy birthday @2348135207177 🤭🫶,Sunday,4,April,12,Member15,Positive
+2023-04-09,12:44,Happy Birthday dear,Sunday,4,April,12,Member9,Positive
+2023-04-09,12:51,Happy Birthda,Sunday,4,April,12,Member4,Positive
+2023-04-09,12:59,Awwn thank you so much sisters 😘😘😘😘😘,Sunday,4,April,12,Member10,Positive
+2023-04-09,12:59,Thank you babe,Sunday,4,April,12,Member10,Negative
+2023-04-09,12:59,Thank you ,Sunday,4,April,12,Member10,Negative
+2023-04-09,12:59,This woman 🤣🤣,Sunday,4,April,12,Member10,Negative
+2023-04-09,12:59,Always cracking me u,Sunday,4,April,12,Member10,Negative
+2023-04-09,13:00,Thank you my love ,Sunday,4,April,13,Member10,Positive
+2023-04-09,13:00,Thank you ,Sunday,4,April,13,Member10,Negative
+2023-04-09,13:00,Thank you ,Sunday,4,April,13,Member10,Negative
+2023-04-09,13:04,Maybe she takes crack 😭😂😂😂🚶🏻‍♀,Sunday,4,April,13,Member11,Negative
+2023-04-09,22:05,<Media omitted,Sunday,4,April,22,Member10,Negative
+2023-04-09,22:14,<Media omitted,Sunday,4,April,22,Member11,Negative
+2023-04-09,23:30,Happy birthday @2348135207177 🥳,Sunday,4,April,23,Member2,Positive
+2023-04-09,23:31,A blessed birthday @234813520717,Sunday,4,April,23,Member1,Negative
+2023-04-10,03:30,Thank you so much babes  ,Monday,4,April,3,Member10,Positive
+2023-04-11,07:11,Le to the maooooo😂😂😂🚶🏻‍♀,Tuesday,4,April,7,Member11,Negative
+2023-04-11,07:13,Mad oo,Tuesday,4,April,7,Member11,Negative
+2023-04-11,07:13,Aiiii🥳🥳🥳💃💃💃,Tuesday,4,April,7,Member11,Negative
+2023-04-11,07:17,<Media omitted,Tuesday,4,April,7,Member1,Negative
+2023-04-11,08:01,Happy birthday @2347069764379 🤩🤩🤩,Tuesday,4,April,8,Member15,Positive
+2023-04-11,08:09,Happy birthday 🫶🏽,Tuesday,4,April,8,Member6,Positive
+2023-04-11,08:50,"Happy birthday @2347069764379 ,have a beautiful year ❤",Tuesday,4,April,8,Member8,Positive
+2023-04-11,08:53,"Happy birthday Lizzy , have an amazing celebration ",Tuesday,4,April,8,Member10,Positive
+2023-04-11,12:08,Happy birthday @2347069764379 wish you a lifetime of happiness in God’s presence ❤,Tuesday,4,April,12,Member3,Positive
+2023-04-11,13:01,Happy belated birthday Chiamaka!!! 🥳🥳🥳 God bless you! ,Tuesday,4,April,13,Member14,Positive
+2023-04-11,13:02,Ghen Ghen! Happy birthday Lizzy baby🥳🥳 God and flourish you! ,Tuesday,4,April,13,Member14,Positive
+2023-04-11,13:05,Lemao,Tuesday,4,April,13,Member11,Negative
+2023-04-11,13:06,Thanks my women 🤭🤭🎊🎊🎊🥳,Tuesday,4,April,13,Member11,Positive
+2023-04-11,13:07,Lol you look prett,Tuesday,4,April,13,Member9,Positive
+2023-04-11,14:21,Ha😭🚶🏻‍♀,Tuesday,4,April,14,Member11,Negative
+2023-04-17,17:20,<Media omitted,Monday,4,April,17,Member11,Negative
+2023-04-17,17:20,<Media omitted,Monday,4,April,17,Member11,Negative
+2023-04-17,17:20,Apply if you are interested ,Monday,4,April,17,Member11,Positive
+2023-04-19,11:12,<Media omitted,Wednesday,4,April,11,Member11,Negative
+2023-04-19,11:32,Happy Birthday Bam,Wednesday,4,April,11,Member13,Positive
+2023-04-19,11:58,Happy Birthda,Wednesday,4,April,11,Member4,Positive
+2023-04-19,12:46,Happy birthday beautiful bami 🥰,Wednesday,4,April,12,Member10,Positive
+2023-04-19,12:49,Thanks you ladies ,Wednesday,4,April,12,Member12,Positive
+2023-04-19,13:17,Happy birthda,Wednesday,4,April,13,Member1,Positive
+2023-04-19,13:22,Happy birthday 🫢,Wednesday,4,April,13,Member15,Positive
+2023-04-19,16:48,Happy birthday!! 🥳🥳,Wednesday,4,April,16,Member14,Positive
+2023-04-19,17:32,Happy birthday dear! 🥳,Wednesday,4,April,17,Member2,Positive
+2023-04-20,09:34,Thanks ladiessss🥰🥰,Thursday,4,April,9,Member12,Positive
+2023-04-20,09:38,Ramadan has finished o,Thursday,4,April,9,Member15,Negative
+2023-04-20,09:38,I can’t keep up with the consistency 😔😔,Thursday,4,April,9,Member15,Negative
+2023-04-20,10:01,<Media omitted,Thursday,4,April,10,Member9,Negative
+2023-04-20,10:02,Lemaooo,Thursday,4,April,10,Member11,Negative
+2023-04-20,10:04,<Media omitted,Thursday,4,April,10,Member15,Negative
+2023-04-20,10:04,<Media omitted,Thursday,4,April,10,Member15,Negative
+2023-04-20,11:21,It’s me oh🥹🥹,Thursday,4,April,11,Member15,Negative
+2023-04-20,11:24,I didn’t even see i,Thursday,4,April,11,Member15,Negative
+2023-04-20,11:26,Thankss🤭,Thursday,4,April,11,Member15,Negative
+2023-04-20,14:10,Any Graphics designer in the house,Thursday,4,April,14,Member4,Negative
+2023-04-20,19:22,This message was delete,Thursday,4,April,19,Member8,Negative
+2023-04-20,19:22,This message was delete,Thursday,4,April,19,Member8,Negative
+2023-04-20,19:23,This message was delete,Thursday,4,April,19,Member8,Negative
+2023-04-20,19:23,This message was delete,Thursday,4,April,19,Member8,Negative
+2023-04-20,19:23,This message was delete,Thursday,4,April,19,Member8,Negative
+2023-04-22,20:34,<Media omitted,Saturday,4,April,20,Member15,Negative
+2023-04-25,21:58,Hii,Tuesday,4,April,21,Member15,Negative
+2023-04-25,22:00,<Media omitted,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:00,Who lied to you,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:00,My house is getting too comfortable 😔,Tuesday,4,April,22,Member15,Positive
+2023-04-25,22:00,Are you back to using the workspac,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:04,Pearl is back 🥳🥳,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:05,Probably a mix up somewhere but me ke,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:37,59k people are bearing Badmus in Nigeri,Tuesday,4,April,22,Member15,Negative
+2023-04-25,22:37,Interesting times 😂,Tuesday,4,April,22,Member15,Positive
+2023-05-10,19:05,https://www.interswitchgroup.com/careerfair,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:05,<Media omitted,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:05,I am so so sorry I am just sending this her,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:05,If you are job hunting please register and attend!!!!,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,Registered alread,Wednesday,5,May,19,Member8,Negative
+2023-05-10,19:06,Thank yo,Wednesday,5,May,19,Member8,Negative
+2023-05-10,19:06,O,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,Yayy,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,See you on Saturda,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,<Media omitted,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,Yeah ,Wednesday,5,May,19,Member8,Negative
+2023-05-10,19:06,Who else is attending,Wednesday,5,May,19,Member11,Negative
+2023-05-10,19:06,😂,Wednesday,5,May,19,Member8,Negative
+2023-05-10,19:24,Let me registe,Wednesday,5,May,19,Member15,Negative
+2023-05-10,20:14,I've registered as well☺,Wednesday,5,May,20,Member6,Negative
+2023-05-11,13:51,Hello @ladie,Thursday,5,May,13,Member9,Negative
+2023-05-12,19:56,Which cinema plissss,Friday,5,May,19,Member15,Negative
+2023-05-12,19:56,You deserve rest bab,Friday,5,May,19,Member15,Negative
+2023-05-12,20:28,"Honestly I need this too, everybody is annoying m",Friday,5,May,20,Member9,Negative
+2023-05-12,20:29,H,Friday,5,May,20,Member11,Negative
+2023-05-12,20:29,Yes ,Friday,5,May,20,Member11,Negative
+2023-05-12,20:29,Sam,Friday,5,May,20,Member16,Negative
+2023-05-12,20:34,I’m going to get wine and drink abe,Friday,5,May,20,Member9,Negative
+2023-05-12,20:46,I was thinking of the cinema too but maybe tomorrow night or somethin,Friday,5,May,20,Member15,Negative
+2023-05-12,21:30,Lma,Friday,5,May,21,Member9,Negative
+2023-05-12,21:31,<Media omitted,Friday,5,May,21,Member1,Negative
+2023-05-12,21:59,Where,Friday,5,May,21,Member15,Negative
+2023-05-12,21:59,Is it safe,Friday,5,May,21,Member15,Positive
+2023-05-12,22:00,<Media omitted,Friday,5,May,22,Member15,Negative
+2023-05-12,22:00,Ilaj,Friday,5,May,22,Member1,Negative
+2023-05-12,22:02,Thomas estat,Friday,5,May,22,Member15,Negative
+2023-05-12,22:02,Complex or elegant ,Friday,5,May,22,Member15,Positive
+2023-05-12,22:02,Eleganz,Friday,5,May,22,Member15,Negative
+2023-05-12,22:02,Or aja,Friday,5,May,22,Member1,Negative
+2023-05-12,22:04,On the bridg,Friday,5,May,22,Member15,Negative
+2023-05-12,22:04,Masdd,Friday,5,May,22,Member15,Negative
+2023-05-12,22:07,😂😂,Friday,5,May,22,Member9,Negative
+2023-05-13,12:28,Hello are you at the event,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:28,Are u here,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:29,You people should come get me😫,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:29,Okay you've not entered,Saturday,5,May,12,Member6,Positive
+2023-05-13,12:29,Om,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:30,We're just standing at the bac,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:30,Not enough seat,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:32,Oka,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:34,"Omo,rain beat me",Saturday,5,May,12,Member8,Negative
+2023-05-13,12:34,Inside now sh,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:34,Yea,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:34,Managing seat with someon,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:38,,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:40,Did you register online,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:40,Leave that long queue and go to the fron,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:40,Show them your mai,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:40,And then go to that entranc,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:41,There might be a queue there th,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:41,Yea,Saturday,5,May,12,Member6,Negative
+2023-05-13,12:42,Check your spam or somethin,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:42,Or search for interswitc,Saturday,5,May,12,Member8,Negative
+2023-05-13,12:44,You'll have to join queue the,Saturday,5,May,12,Member8,Negative
+2023-05-13,13:26,A oh sorr,Saturday,5,May,13,Member9,Negative
+2023-05-13,13:57,"Oh, nic",Saturday,5,May,13,Member8,Negative
+2023-05-13,14:00,,Saturday,5,May,14,Member6,Negative
+2023-05-13,14:16,Where are you,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:36,I'm los,Saturday,5,May,14,Member6,Negative
+2023-05-13,14:36,Lo,Saturday,5,May,14,Member6,Negative
+2023-05-13,14:37,"So basically they're saying once you've registered and attached your cv you're done, nothing mor",Saturday,5,May,14,Member6,Negative
+2023-05-13,14:38,Where,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:40,At the hr stan,Saturday,5,May,14,Member6,Negative
+2023-05-13,14:40,You're there now,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:41,Yup,Saturday,5,May,14,Member6,Negative
+2023-05-13,14:42,What are you putting on,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:46,A black top and blue jean,Saturday,5,May,14,Member6,Positive
+2023-05-13,14:48,"Hehe,I've left the side,I'm coming bac",Saturday,5,May,14,Member8,Negative
+2023-05-13,14:48,I'm on a jumpsui,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:49,I'm seeing someone with black top and blue jean,Saturday,5,May,14,Member8,Positive
+2023-05-13,14:49,But what if it's not you?,Saturday,5,May,14,Member8,Negative
+2023-05-13,14:58,,Saturday,5,May,14,Member6,Negative
+2023-05-13,15:01,"I asked someone if she's Feyi,she said no o",Saturday,5,May,15,Member8,Negative
+2023-05-13,15:09,I've lef,Saturday,5,May,15,Member6,Negative
+2023-05-13,15:10,I'll share picture,Saturday,5,May,15,Member6,Negative
+2023-05-13,15:42,"Ohh, sorr",Saturday,5,May,15,Member8,Negative
+2023-05-13,15:42,Take care of yoursel,Saturday,5,May,15,Member8,Negative
+2023-05-13,15:42,"Oh, alrigh",Saturday,5,May,15,Member8,Negative
+2023-05-14,11:30,Thanks to everyone who showed up yesteda,Sunday,5,May,11,Member11,Positive
+2023-05-16,07:44,Good morning peopl,Tuesday,5,May,7,Member11,Positive
+2023-05-16,07:44,@2349031921002 your cv please in my D,Tuesday,5,May,7,Member11,Negative
+2023-05-16,08:23,Good mornin,Tuesday,5,May,8,Member8,Positive
+2023-05-16,08:23,Please check your D,Tuesday,5,May,8,Member8,Negative
+2023-06-02,07:36,Happy birthday @2349039746579 🎊🎊🎊❤️❤️❤️💃💃💃💃💃💃,Friday,6,June,7,Member11,Positive
+2023-06-02,08:07,Happy birthday sis @234903974657,Friday,6,June,8,Member6,Positive
+2023-06-02,08:14,Happy birthday my 😘 Keep shining and keep winning. Nothing can limit you 🥳,Friday,6,June,8,Member2,Positive
+2023-06-02,08:47,Happy birthday dear @2349039746579 🎊🎊,Friday,6,June,8,Member12,Positive
+2023-06-02,09:04,Happy birthday beautiful lady @234903974657,Friday,6,June,9,Member9,Positive
+2023-06-02,09:53,Happy birthday August,Friday,6,June,9,Member10,Positive
+2023-06-02,10:16,@2349039746579 happy birthday baby girl,Friday,6,June,10,Member1,Positive
+2023-06-02,10:17,Happy birthday fine woman @2349039746579 😻😻,Friday,6,June,10,Member15,Positive
+2023-06-02,20:58,Anyone going for priceless hairs wig fair tomorrow at surulere,Friday,6,June,20,Member11,Positive
+2023-06-03,13:58,There's no money on groun,Saturday,6,June,13,Member8,Negative
+2023-06-03,13:58,<Media omitted,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,I know you're capable of sponsoring me th,Saturday,6,June,13,Member8,Positive
+2023-06-03,13:59,So na me broke pass for her,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,So just say the word and I'll put on my clothe,Saturday,6,June,13,Member8,Negative
+2023-06-03,13:59,You mean rich,Saturday,6,June,13,Member8,Positive
+2023-06-03,13:59,Becsue I wan go this sales as her prices would go be les,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,Broke!!,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,Na you wan go wig fai,Saturday,6,June,13,Member8,Negative
+2023-06-03,13:59,Me I no even fit go at al,Saturday,6,June,13,Member8,Positive
+2023-06-03,13:59,<Media omitted,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,<Media omitted,Saturday,6,June,13,Member11,Negative
+2023-06-03,13:59,We're not the same 😭,Saturday,6,June,13,Member8,Negative
+2023-06-03,13:59,Wime,Saturday,6,June,13,Member8,Negative
+2023-06-03,14:00,"Slash o, not slash o, I dey my house ",Saturday,6,June,14,Member8,Negative
+2023-06-03,14:00,<Media omitted,Saturday,6,June,14,Member8,Negative
+2023-06-03,22:50,Oya those in Lekki make we go Lekki wig fair tomorrow 😭,Saturday,6,June,22,Member11,Positive
+2023-06-03,22:50,<Media omitted,Saturday,6,June,22,Member11,Negative
+2023-06-07,13:20,Good afternoon guy,Wednesday,6,June,13,Member10,Positive
+2023-06-07,13:20,<Media omitted,Wednesday,6,June,13,Member10,Negative
+2023-06-07,13:20,Saw this and thought to shar,Wednesday,6,June,13,Member10,Negative
+2023-06-07,14:01,<Media omitted,Wednesday,6,June,14,Member11,Negative
+2023-06-07,15:07,Alright ,Wednesday,6,June,15,Member10,Negative
+2023-06-07,15:07,Welldone Lizz,Wednesday,6,June,15,Member10,Negative
+2023-06-07,15:10,congratulations b,Wednesday,6,June,15,Member16,Negative
+2023-06-07,15:14,Thank you,Wednesday,6,June,15,Member11,Negative
+2023-06-07,15:14,Thankss,Wednesday,6,June,15,Member11,Negative
+2023-06-12,14:45,"Happy birthday @2347068459985 , have a blast",Monday,6,June,14,Member8,Positive
+2023-06-12,15:20,Thank you so much guys🥺🥺🥺❤️❤️❤,Monday,6,June,15,Member15,Positive
+2023-06-12,15:27,Happy birthday boo🎊🎊,Monday,6,June,15,Member11,Positive
+2023-06-16,14:51,Are they here,Friday,6,June,14,Member8,Negative
+2023-06-16,14:52,Yesss,Friday,6,June,14,Member15,Negative
+2023-06-16,14:52,Yes mumm,Friday,6,June,14,Member15,Negative
+2023-06-16,14:52,Where are you,Friday,6,June,14,Member15,Negative
+2023-06-16,14:54,I'm moving up and down,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,Voluntee,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,Currently at the main entrance sh,Friday,6,June,14,Member8,Positive
+2023-06-16,14:55,God whennn,Friday,6,June,14,Member15,Negative
+2023-06-16,14:55,I’m in the main hal,Friday,6,June,14,Member15,Positive
+2023-06-16,14:55,Lmaoo,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,Me to,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,Let me pick my foo,Friday,6,June,14,Member15,Negative
+2023-06-16,14:55,Currentl,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,Alrigh,Friday,6,June,14,Member8,Negative
+2023-06-16,14:55,My eye dey turn firs,Friday,6,June,14,Member15,Negative
+2023-06-16,14:57,Lma,Friday,6,June,14,Member8,Negative
+2023-06-16,16:12,Lo,Friday,6,June,16,Member11,Negative
+2023-06-16,16:12,Just breezing in tomorrow morning to sheer my friend sho is speaking after that I’m ou,Friday,6,June,16,Member11,Negative
+2023-06-16,16:12,Kpel,Friday,6,June,16,Member11,Negative
+2023-06-16,16:30,"Oh, alrigh",Friday,6,June,16,Member8,Negative
+2023-06-16,16:30,Thank yo,Friday,6,June,16,Member8,Negative
+2023-06-17,10:04,@2349031921002 I sight you ,Saturday,6,June,10,Member11,Negative
+2023-06-17,10:06,Seen yo,Saturday,6,June,10,Member8,Negative
+2023-06-17,10:13,<Media omitted,Saturday,6,June,10,Member8,Negative
+2023-06-17,10:13,<Media omitted,Saturday,6,June,10,Member8,Negative
+2023-06-17,10:14,Where are you oejpleeee,Saturday,6,June,10,Member15,Negative
+2023-06-17,10:17,Mar,Saturday,6,June,10,Member8,Negative
+2023-06-17,10:18,Alrighttt,Saturday,6,June,10,Member15,Negative
+2023-06-29,22:35,Oh yes ye,Thursday,6,June,22,Member11,Negative
+2023-06-29,22:35,Thanks ,Thursday,6,June,22,Member11,Positive
+2023-06-29,22:39,Omoo....Thanks for sharing this,Thursday,6,June,22,Member13,Negative
+2023-06-30,03:58,Hmm,Friday,6,June,3,Member11,Negative
+2023-07-05,12:19,Happy birthday baby @2349031921002 🎊🎊🎊,Wednesday,7,July,12,Member11,Positive
+2023-07-05,12:25,Thank youu ,Wednesday,7,July,12,Member8,Negative
+2023-07-05,12:26,Thank youu ,Wednesday,7,July,12,Member8,Negative
+2023-07-05,13:00,Happy birthday @2349031921002 🤭🤭❤️❤,Wednesday,7,July,13,Member15,Positive
+2023-07-05,13:01,Thank youuuu ❤,Wednesday,7,July,13,Member8,Negative
+2023-07-05,16:06,Mee,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:06,Scented one,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:06,Meeee,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:07,When is our next hangout abeg,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:07,Yayyyy,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:07,"Err, idk😂",Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:07,I'm new to the,Wednesday,7,July,16,Member8,Positive
+2023-07-05,16:07,Lemaoo,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:07,Lavender,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:07,😂😂,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:07,<Media omitted,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:08,Okayy,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:08,,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:08,Abeg her things are unnecessarily expensiv,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:08,Beth Fragrance will give you the best,Wednesday,7,July,16,Member11,Positive
+2023-07-05,16:09,You be rich woman ,Wednesday,7,July,16,Member11,Positive
+2023-07-05,16:09,"Oya, lavender the",Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:09,All kinds of fragrance,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:09,Okaay,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:09,I can even make it for you if you wan,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:09,With your fave perfume oil fragranc,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:09,O,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:12,Kille,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:14,This smells nic,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:15,She's a ritualist ,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:16,Ye,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:18,Ik,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:28,Mee,Wednesday,7,July,16,Member15,Negative
+2023-07-05,16:28,I can’t afford Ife’s perfume 🫠,Wednesday,7,July,16,Member15,Negative
+2023-07-05,16:28,E reach to ask 😭😭,Wednesday,7,July,16,Member15,Negative
+2023-07-05,16:29,I want to eat dinner and get drunkkk😭😭,Wednesday,7,July,16,Member15,Negative
+2023-07-05,16:33,<Media omitted,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:34,"Oh, sorry dear, i tot it was @2349039746579 that commented thi",Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:34,"Hope ds time, it's on the island😋",Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:34,Lwmaooo,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:35,Supposedl,Wednesday,7,July,16,Member11,Negative
+2023-07-05,16:35,<Media omitted,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:35,<Media omitted,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:36,Avoid me pleas,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:37,<Media omitted,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:39,<Media omitted,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:39,Wen n wia,Wednesday,7,July,16,Member1,Negative
+2023-07-05,16:50,Sorry sorr,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:50,Was bus,Wednesday,7,July,16,Member8,Negative
+2023-07-05,16:50,I'll chec,Wednesday,7,July,16,Member8,Negative
+2023-07-05,17:10,Yess,Wednesday,7,July,17,Member15,Negative
+2023-07-05,17:10,Island for the win🤭,Wednesday,7,July,17,Member15,Negative
+2023-07-05,17:11,Aww,Wednesday,7,July,17,Member15,Positive
+2023-07-05,17:11,<Media omitted,Wednesday,7,July,17,Member15,Negative
+2023-07-05,20:04,I’ve heard her candles and products in general are quite expensiv,Wednesday,7,July,20,Member10,Positive
+2023-07-05,20:11,Lo,Wednesday,7,July,20,Member11,Negative
+2023-07-05,20:23,I just remembered se,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:23,A whole face set is 15,Wednesday,7,July,20,Member15,Positive
+2023-07-05,20:24,The candles have student size too,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:24,The reviews are always grea,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:25,Lo,Wednesday,7,July,20,Member11,Negative
+2023-07-05,20:38,I meant personal reviews ,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:41,It’s not cost effectiv,Wednesday,7,July,20,Member10,Negative
+2023-07-05,20:47,Gbam,Wednesday,7,July,20,Member11,Negative
+2023-07-05,20:48,But her products are great no doub,Wednesday,7,July,20,Member10,Positive
+2023-07-05,20:48,Including the skincare product,Wednesday,7,July,20,Member10,Negative
+2023-07-05,20:48,They are really goo,Wednesday,7,July,20,Member10,Positive
+2023-07-05,20:49,But a lot of persons I know have always complained about them not being able to sustain it long ter,Wednesday,7,July,20,Member10,Positive
+2023-07-05,20:50,Anyone who uses her product is rich,Wednesday,7,July,20,Member11,Positive
+2023-07-05,20:52,So @2349039746579 and @2347068459985 are rich,Wednesday,7,July,20,Member11,Positive
+2023-07-05,20:53,"Well not entirely, some people have prioritie",Wednesday,7,July,20,Member10,Negative
+2023-07-05,20:54,Some people prefer to spend their last card ontop skincare ,Wednesday,7,July,20,Member10,Negative
+2023-07-05,20:55,Is like we are omitting her oh🤭@2348135207177 we see you si,Wednesday,7,July,20,Member1,Negative
+2023-07-05,20:56,@2348142714633 how far ,Wednesday,7,July,20,Member11,Positive
+2023-07-05,20:57,<Media omitted,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:57,My account might not glo,Wednesday,7,July,20,Member15,Negative
+2023-07-05,20:58,I agre,Wednesday,7,July,20,Member15,Negative
+2023-07-05,21:02,Gba,Wednesday,7,July,21,Member1,Negative
+2023-07-05,21:03,<Media omitted,Wednesday,7,July,21,Member9,Negative
+2023-07-05,21:03,<Media omitted,Wednesday,7,July,21,Member1,Negative
+2023-07-23,13:16,Yesssss,Sunday,7,July,13,Member15,Negative
+2023-07-23,13:16,<Media omitted,Sunday,7,July,13,Member15,Negative
+2023-07-23,14:03,<Media omitted,Sunday,7,July,14,Member8,Negative
+2023-07-23,14:03,<Media omitted,Sunday,7,July,14,Member8,Negative
+2023-07-23,14:21,Yes!,Sunday,7,July,14,Member14,Negative
+2023-07-23,14:27,<Media omitted,Sunday,7,July,14,Member9,Negative
+2023-07-23,15:35,,Sunday,7,July,15,Member11,Negative
+2023-07-23,15:50,<Media omitted,Sunday,7,July,15,Member1,Negative
+2023-07-23,15:51,<Media omitted,Sunday,7,July,15,Member1,Negative
+2023-07-23,15:52,Na i know my plc 😭😭,Sunday,7,July,15,Member1,Negative
+2023-07-23,15:56,<Media omitted,Sunday,7,July,15,Member1,Negative
+2023-07-23,15:56,<Media omitted,Sunday,7,July,15,Member1,Negative
+2023-07-23,22:29,This message was delete,Sunday,7,July,22,Member11,Negative
+2023-07-23,22:33,Yasssss😭😭🤩💃💃💃,Sunday,7,July,22,Member11,Negative
+2023-07-26,19:02,God abe,Wednesday,7,July,19,Member12,Negative
+2023-07-26,19:02,Mad!!,Wednesday,7,July,19,Member11,Negative
+2023-07-26,19:31,Crazyyy,Wednesday,7,July,19,Member16,Negative
+2023-07-26,20:03,Om,Wednesday,7,July,20,Member8,Negative
+2023-07-30,17:25,Nah just incense never used cinnamon stick,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:25,Not exactly just like them a lot lot and have butterflie,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:25,Like them enough to date the,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:26,They aren’t hiding it oh it’s all over Instagra,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:30,Wow ,Sunday,7,July,17,Member9,Positive
+2023-07-30,17:30,Om,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:31,Was it only cinnamon,Sunday,7,July,17,Member9,Negative
+2023-07-30,17:32,I agree with this. It’s not necessary you love them. But you deeply like them enough to date them. The likeness comes from courting them. Love deepens as you date them,Sunday,7,July,17,Member16,Positive
+2023-07-30,17:37,Keyword “Ensure,Sunday,7,July,17,Member9,Negative
+2023-07-30,18:05,Wow... Just hearing this about cinnamon for the first time... Would try it,Sunday,7,July,18,Member2,Positive
+2023-07-30,19:02,<Media omitted,Sunday,7,July,19,Member11,Negative
+2023-07-30,19:06,Lfg,Sunday,7,July,19,Member16,Negative
+2023-07-30,19:17,<Media omitted,Sunday,7,July,19,Member11,Negative
+2023-07-30,19:27,Yea,Sunday,7,July,19,Member8,Negative
+2023-07-30,19:28,"Don't date them just because you like them, date them because you like them and want to be with them, even if you've not totally fallen in love with them, it'll deepen as the relationship proceed",Sunday,7,July,19,Member8,Positive
+2023-07-30,19:29,Some people also fall in love before entering the relationshi,Sunday,7,July,19,Member8,Positive
+2023-10-21,07:30,This message was delete,Saturday,10,October,7,Member11,Negative
+2023-10-29,18:56,<Media omitted,Sunday,10,October,18,Member11,Negative
+2024-01-18,08:10,Hello people ,Thursday,1,January,8,Member11,Negative
+2024-01-18,08:18,Happy New Yearrrr😘,Thursday,1,January,8,Member15,Positive
+2024-01-18,08:55,Happy New Year People 😍💋🎉,Thursday,1,January,8,Member1,Positive
+2024-01-18,09:09,Happy new year ladies! ,Thursday,1,January,9,Member14,Positive
+2024-01-18,09:12,Happy New Year!🥳🥳,Thursday,1,January,9,Member2,Positive
+2024-01-18,09:34,<Media omitted,Thursday,1,January,9,Member11,Negative
+2024-01-18,09:34,Please who can point me to a really affordable eatery on the islan,Thursday,1,January,9,Member11,Positive
+2024-01-18,09:35,Emphasis on affordable 😭,Thursday,1,January,9,Member11,Negative
+2024-01-18,11:00,😂,Thursday,1,January,11,Member12,Negative
+2024-01-18,11:01,Affordable eatery for island,Thursday,1,January,11,Member12,Negative
+2024-01-30,06:28,<Media omitted,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:44,I think we can do sip and pain,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:44,I know the perfect person for a sip and paint materia,Tuesday,1,January,6,Member15,Positive
+2024-01-30,06:45,Grea,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:45,She sells the entire package for 350,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:45,We can also do colour themed picni,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:45,What is aisle,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:46,Mine was around 850,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:46,The art stand thin,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:46,<Media omitted,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:47,Exactl,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:47,Oh o,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:48,We can even combine both ,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:50,Lemaoo,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:50,You know how much,Tuesday,1,January,6,Member11,Positive
+2024-01-30,06:50,<Media omitted,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:50,People have expense,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:50,<Media omitted,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:50,The country is not even smilin,Tuesday,1,January,6,Member11,Negative
+2024-01-30,06:51,Thank you for reality check 💀,Tuesday,1,January,6,Member15,Negative
+2024-01-30,06:51,Lemaoo,Tuesday,1,January,6,Member11,Negative
+2024-01-30,08:03,<Media omitted,Tuesday,1,January,8,Member13,Negative
+2024-01-31,11:11,Allow the singles breatheeee,Wednesday,1,January,11,Member11,Negative
+2024-01-31,11:11,I do no,Wednesday,1,January,11,Member11,Negative
+2024-01-31,11:14,Spending the weekend with my babe. ,Wednesday,1,January,11,Member15,Negative
+2024-01-31,11:21,<Media omitted,Wednesday,1,January,11,Member11,Negative
+2024-01-31,11:31,You asked nau ,Wednesday,1,January,11,Member15,Negative
+2024-01-31,11:58,<Media omitted,Wednesday,1,January,11,Member1,Negative
+2024-01-31,12:07,<Media omitted,Wednesday,1,January,12,Member8,Negative
+2024-02-01,06:07,<Media omitted,Thursday,2,February,6,Member15,Negative
+2024-02-01,06:07,Happy new month to your to,Thursday,2,February,6,Member15,Positive
+2024-02-01,08:18,😭😂,Thursday,2,February,8,Member11,Negative
+2024-02-01,08:23,Happy New Month ,Thursday,2,February,8,Member2,Positive
+2024-02-01,08:24,Lemaoo,Thursday,2,February,8,Member11,Negative
+2024-02-01,08:25,Happy new month my peopl,Thursday,2,February,8,Member12,Positive
+2024-02-01,09:26,Why not?,Thursday,2,February,9,Member12,Negative
+2024-02-01,09:26,This year we must upskill!!,Thursday,2,February,9,Member11,Negative
+2024-02-01,09:27,I think we should have a culture of reading at least a book monthl,Thursday,2,February,9,Member11,Negative
+2024-02-01,09:27,Then when we meet physical we can discuss it to somethin,Thursday,2,February,9,Member11,Negative
+2024-02-01,09:27,Let’s have fun while learnin,Thursday,2,February,9,Member11,Positive
+2024-02-01,17:30,,Thursday,2,February,17,Member14,Negative
+2024-02-01,17:30,Yesss,Thursday,2,February,17,Member14,Negative
+2024-02-01,17:55,Oy,Thursday,2,February,17,Member11,Negative
+2024-02-01,17:55,Has anyone read it,Thursday,2,February,17,Member11,Negative
+2024-02-03,17:48,Thanks for checking ,Saturday,2,February,17,Member11,Positive
+2024-02-03,20:28,It’s really hard,Saturday,2,February,20,Member8,Negative
