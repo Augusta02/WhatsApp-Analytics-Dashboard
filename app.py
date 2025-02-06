@@ -238,6 +238,8 @@ def main():
 
       if uploaded_file is not None:
           try:
+              # show after successful upload
+              st.success("File uploaded successfully! Processing the data...")
               # ✅ Process .txt files (WhatsApp chat exports)
               if uploaded_file.type == "text/plain":
                   data = uploaded_file.read().decode("utf-8")
@@ -256,7 +258,7 @@ def main():
 
               # ✅ Store cleaned data in session state for use in the Dashboard
               st.session_state['cleaned_data'] = cleaned_data
-              st.success("File uploaded successfully and Processed, Go to Dashboard!")
+              st.info("Go to the **Dashboard** to view insights!")
 
           except Exception as e:
               st.error(f"Error processing the file: {e}")
