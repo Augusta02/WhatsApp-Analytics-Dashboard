@@ -241,7 +241,7 @@ def main():
               # ✅ Process .txt files (WhatsApp chat exports)
               if uploaded_file.type == "text/plain":
                   data = uploaded_file.read().decode("utf-8")
-                  st.success("File uploaded successfully and Processed, Go to Dashboard!")
+                  # st.success("File uploaded successfully and Processed, Go to Dashboard!")
                   # st.write("Preview of uploaded file content:")
                   # st.text(data[:500])  # Show the first 500 characters
 
@@ -256,7 +256,7 @@ def main():
 
               # ✅ Store cleaned data in session state for use in the Dashboard
               st.session_state['cleaned_data'] = cleaned_data
-              st.success("Data successfully processed and stored!")
+              st.success("File uploaded successfully and Processed, Go to Dashboard!")
 
           except Exception as e:
               st.error(f"Error processing the file: {e}")
