@@ -242,8 +242,8 @@ def main():
               if uploaded_file.type == "text/plain":
                   data = uploaded_file.read().decode("utf-8")
                   st.success("File uploaded successfully!")
-                  st.write("Preview of uploaded file content:")
-                  st.text(data[:500])  # Show the first 500 characters
+                  # st.write("Preview of uploaded file content:")
+                  # st.text(data[:500])  # Show the first 500 characters
 
                   # Process the text data
                   cleaned_data = clean_data(data.splitlines())
@@ -252,7 +252,7 @@ def main():
               elif uploaded_file.type == "text/csv":
                   cleaned_data = pd.read_csv(uploaded_file)
                   st.success("CSV file uploaded successfully!")
-                  st.write(cleaned_data.head())  # Show preview of DataFrame
+                  # st.write(cleaned_data.head())  # Show preview of DataFrame
 
               # ✅ Store cleaned data in session state for use in the Dashboard
               st.session_state['cleaned_data'] = cleaned_data
@@ -264,36 +264,7 @@ def main():
       else:
           st.warning("⚠ Please upload a WhatsApp chat file to proceed.")
 
-# def main():
-#     page = st.sidebar.selectbox("Choose a page", ['Home', 'Dashboard'])
-#     # comm_name = " "
-#     # number_users = 0
 
-#     if page == 'Home':
-#       st.title('Whatsapp Analytics Dashboard')
-
-#       comm_name = st.text_input('Enter the name of the community: ')
-#       st.session_state['comm_name'] = comm_name
-#       number_users = int(st.number_input('Enter the number of community members: '))
-#       st.session_state['number_users'] = number_users
-
-#       # comm_name, number_users = get_user_inputs()
-#       st.write('Upload the Whatsapp data for cleaning (txt format): ')
-
-#       # Upload the data
-#       uploaded_file = st.file_uploader('Choose a file', type='txt')
-    
-#       if uploaded_file is not None:
-#         uploaded_data = uploaded_file.read().decode("utf-8")
-#         st.write('File uploaded successfully!! Processing the data...')
-#         # st.write(uploaded_data)
-        
-#         data = uploaded_data.splitlines()
-#         cleaned_data = clean_data(data)
-#         st.session_state['cleaned_data'] = cleaned_data
-#         return cleaned_data
-#       else: 
-#         print('No file uploaded')
     
     elif page == 'Dashboard':
       comm_name = st.session_state['comm_name']
