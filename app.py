@@ -481,5 +481,5 @@ if __name__ == "__main__":
 
 
 
-data = pd.read_csv('/Users/mac/Desktop/projects/datasets/whatsapp_analytics/cleaned_data.csv')
+# data = pd.read_csv('/Users/mac/Desktop/projects/datasets/whatsapp_analytics/cleaned_data.csv')
 
