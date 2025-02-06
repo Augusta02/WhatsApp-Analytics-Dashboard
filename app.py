@@ -256,8 +256,8 @@ def main():
                   # ✅ Store cleaned data in session state for use in the Dashboard
                   st.session_state['cleaned_data'] = cleaned_data
 
-              st.session_state.file_uploaded = True
-              st.success("File uploaded successfully! Processing the data...")
+                  st.session_state.file_uploaded = True
+                  st.success("File uploaded successfully! Processing the data...")
               
 
           except Exception as e:
