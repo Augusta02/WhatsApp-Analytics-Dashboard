@@ -339,7 +339,7 @@ def main():
         st.markdown('####')
       
 
-      cols_1 = st.columns([.666,.222, .666])
+      cols_1 = st.columns([.666, .666])
 
       with cols_1[0]:
         st.subheader('Total Messages By Members')
