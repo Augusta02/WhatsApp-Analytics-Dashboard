@@ -218,6 +218,9 @@ def clean_data(uploaded_data):
 
 #  Enter name of the community 
 def main():
+    if "file_uploaded" not in st.session_state:
+      st.session_state.file_uploaded = False
+
     page = st.sidebar.radio("Choose a page", ['Home', 'Dashboard'])
     # comm_name = " "
     # number_users = 0
@@ -236,17 +239,12 @@ def main():
       st.write("Upload the WhatsApp data for cleaning (txt or csv format):")
       uploaded_file = st.file_uploader("Choose a file", type=["txt", "csv"])
 
-      if uploaded_file is not None:
+      if uploaded_file is not None and not st.session_state.file_uploaded:
           try:
-              # show after successful upload
-              st.success("File uploaded successfully! Processing the data...")
               # ✅ Process .txt files (WhatsApp chat exports)
               if uploaded_file.type == "text/plain":
                   data = uploaded_file.read().decode("utf-8")
-                  # st.success("File uploaded successfully and Processed, Go to Dashboard!")
-                  # st.write("Preview of uploaded file content:")
-                  # st.text(data[:500])  # Show the first 500 characters
-
+                  
                   # Process the text data
                   cleaned_data = clean_data(data.splitlines())
 
@@ -258,7 +256,10 @@ def main():
 
               # ✅ Store cleaned data in session state for use in the Dashboard
               st.session_state['cleaned_data'] = cleaned_data
-              st.info("Go to the **Dashboard** to view insights!")
+              st.session_state.file_uploaded = True
+
+              st.success("File uploaded successfully! Processing the data...")
+              
 
           except Exception as e:
               st.error(f"Error processing the file: {e}")
