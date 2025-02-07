@@ -232,11 +232,11 @@ def main():
       st.session_state['comm_name'] = comm_name
 
       # Number of Community Members (Ensure a valid input)
-      number_users = st.number_input('Enter the number of community members:'
+      number_users = st.number_input('Enter the number of community members:', min_value=1, step=1)
+      st.session_state['number_users'] = int(number_users)
 
       # 📂 File Upload Section
-      st.write("Upload the WhatsApp data for cleaning (txt or csv format):"), min_value=1, step=1)
-      st.session_state['number_users'] = int(number_users)
+      st.write("Upload the WhatsApp data for cleaning (txt or csv format):")
       uploaded_file = st.file_uploader("Choose a file", type=["txt", "csv"])
 
       if uploaded_file is not None:
