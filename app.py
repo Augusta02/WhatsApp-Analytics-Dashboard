@@ -294,7 +294,7 @@ def main():
           st.write('Please go back to home page to enter the number of community members')
       with right_column:
         st.subheader('Date')
-        st.markdown('####')
+        st.markdown('###')
         date_range_option = st.selectbox("Select Date Range", options=["Anytime","Last 3 days", "Last Week", "Last Month"])
         updated_data = filtered_data_by_date(cleaned_data,"date", date_range_option)
         previous_data = get_previous_dates(cleaned_data, 'date', date_range_option)
