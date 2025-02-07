@@ -214,11 +214,12 @@ def clean_data(uploaded_data):
     df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y", errors="coerce")
 
     # ✅ Convert time column correctly:
-    # if is_ios:
-    #     df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
-    # elif is_android:
-    #     df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
-    df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
+    if is_ios:
+        df["time"] = pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
+    elif is_android:
+        df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
+    # df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
+    # df['time'] = pd.to_datetime(df['time'], format='%H:%M', errors='coerce').dt.time
 
     # ✅ Extract hour for heatmap
     # df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
@@ -236,7 +237,7 @@ def clean_data(uploaded_data):
     st.session_state["dropped_member_count"] = exited_members
 
     # ✅ Remove system messages (group changes, admin messages)
-    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over", "image omitted", 'Waiting for this message. This may take a while.']
+    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over", "image omitted", 'Waiting for this message. This may take a while.', "sticker"]
     df = df[~df["message"].str.contains("|".join(system_keywords), case=False, na=False)]
 
     # ✅ Drop NaN values after removing system messages
