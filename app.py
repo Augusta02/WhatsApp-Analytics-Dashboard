@@ -211,28 +211,46 @@ def clean_data(uploaded_data):
     #     cleaned_data.append([date_part, time_part, member, message])
 
     df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
+    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y")
+    df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
 
-    df['date'] = df['date'].apply(is_valid)
-    df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
-    df['date'] = df['date'].dt.strftime('%m/%d/%Y')
-    df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
+    # Store new members and exited members in session state
+    new_members = df[df["message"].str.contains("added|invited|joined", case=False, na=False)]
+    exited_members = df[df["message"].str.contains("left|removed", case=False, na=False)]
 
-    new_members_count = df[df['message'].str.contains('added|joined|invited|joined using', case=False, na=False)][['date', 'message', 'member']]
-    st.session_state['new_members_count'] = new_members_count
-    # Extract names from messages where 'left' appears
-    exited_members = df[df['message'].str.contains('left', case=False, na=False)][['date', 'message', 'member']]
-    st.session_state['dropped_member_count'] = exited_members
-    # df.drop(columns=['extracted_name', 'left_group'], inplace=True)
-    df['hour'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.hour
-    # Extract day of week (as integer) and month name from date column
-    df['dayofweek'] = pd.to_datetime(df['date']).dt.day_name()
+    st.session_state["new_members_count"] = new_members
+    st.session_state["dropped_member_count"] = exited_members
 
-    # Get month name
-    df['month'] = pd.to_datetime(df['date']).dt.month_name()
-    keywords_to_remove=["You're now an admin", "left", "added", "removed", "changed", "created", "pinned", 'joined', "invited", "group has over","admin"]
-    # df = df[~df['member'].str.contains('|'.join(values))]
-    df = df[~df['message'].str.contains('|'.join(keywords_to_remove))]
-    df.dropna(inplace=True)
+    # Remove system messages
+    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over"]
+    df = df[~df["message"].str.contains("|".join(system_keywords), case=False, na=False)]
+    
+    # Extract hour, day, and month for analytics
+    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
+    df["dayofweek"] = df["date"].dt.day_name()
+    df["month"] = df["date"].dt.month_name()
+
+    # df['date'] = df['date'].apply(is_valid)
+    # df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+    # df['date'] = df['date'].dt.strftime('%m/%d/%Y')
+    # df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
+
+    # new_members_count = df[df['message'].str.contains('added|joined|invited|joined using', case=False, na=False)][['date', 'message', 'member']]
+    # st.session_state['new_members_count'] = new_members_count
+    # # Extract names from messages where 'left' appears
+    # exited_members = df[df['message'].str.contains('left', case=False, na=False)][['date', 'message', 'member']]
+    # st.session_state['dropped_member_count'] = exited_members
+    # # df.drop(columns=['extracted_name', 'left_group'], inplace=True)
+    # df['hour'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.hour
+    # # Extract day of week (as integer) and month name from date column
+    # df['dayofweek'] = pd.to_datetime(df['date']).dt.day_name()
+
+    # # Get month name
+    # df['month'] = pd.to_datetime(df['date']).dt.month_name()
+    # keywords_to_remove=["You're now an admin", "left", "added", "removed", "changed", "created", "pinned", 'joined', "invited", "group has over","admin"]
+    # # df = df[~df['member'].str.contains('|'.join(values))]
+    # df = df[~df['message'].str.contains('|'.join(keywords_to_remove))]
+    # df.dropna(inplace=True)
     df = anonymize_members(df, 'member', 'Member')
     
     return df
