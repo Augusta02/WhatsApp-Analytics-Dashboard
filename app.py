@@ -190,6 +190,7 @@ def clean_data(uploaded_data):
                 colon_index = messages.find(":")
                 if colon_index >= -1:
                     message = messages[colon_index + 1:].strip()
+                cleaned_data.append([date_part, time_part, member, message])
             elif is_android:
                 # Android Format: 24/02/2023, 10:38 - User: Message
                 match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}) - (.*?): (.*)", line)
@@ -198,16 +199,12 @@ def clean_data(uploaded_data):
 
             if match:
                 date_part, time_part, member, message = match.groups()
-                
                 # Remove leading "~" in iOS names
                 member = member.strip("~").strip()
-
                 # Filter out system messages & empty messages
                 if not message.strip() or "Waiting for this message" in message or "image omitted" in message:
                     continue
-
                 cleaned_data.append([date_part, time_part, member, message])
-        
         except Exception as e:
             print(f"Skipping line due to error: {e}")
 
