@@ -233,7 +233,7 @@ def main():
 
       # Number of Community Members (Ensure a valid input)
       number_users = st.number_input('Enter the number of community members:', min_value=1, step=1)
-      # st.session_state['number_users'] = int(number_users)
+      st.session_state['number_users'] = int(number_users)
 
       # 📂 File Upload Section
       st.write("Upload the WhatsApp data for cleaning (txt or csv format):")
@@ -265,7 +265,6 @@ def main():
 
       else:
           st.warning("⚠ Please upload a WhatsApp chat file to proceed.")
-      st.subheader(number_users)
       
     elif page == 'Dashboard':
       comm_name = st.session_state['comm_name']
