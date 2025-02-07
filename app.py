@@ -232,11 +232,11 @@ def main():
       st.session_state['comm_name'] = comm_name
 
       # Number of Community Members (Ensure a valid input)
-      number_users = st.number_input('Enter the number of community members:', min_value=1, step=1)
-      st.session_state['number_users'] = int(number_users)
+      number_users = st.number_input('Enter the number of community members:'
 
       # 📂 File Upload Section
-      st.write("Upload the WhatsApp data for cleaning (txt or csv format):")
+      st.write("Upload the WhatsApp data for cleaning (txt or csv format):"), min_value=1, step=1)
+      st.session_state['number_users'] = int(number_users)
       uploaded_file = st.file_uploader("Choose a file", type=["txt", "csv"])
 
       if uploaded_file is not None:
@@ -254,10 +254,10 @@ def main():
                   st.success("CSV file uploaded successfully!")
 
                   # ✅ Store cleaned data in session state for use in the Dashboard
-                  st.session_state['cleaned_data'] = cleaned_data
+              st.session_state['cleaned_data'] = cleaned_data
 
-                  st.session_state.file_uploaded = True
-                  st.success("File uploaded successfully! Processing the data...")
+              st.session_state.file_uploaded = True
+              st.success("File uploaded successfully! Processing the data...")
               
 
           except Exception as e:
@@ -265,9 +265,8 @@ def main():
 
       else:
           st.warning("⚠ Please upload a WhatsApp chat file to proceed.")
-
-
-    
+      st.subheader(number_users)
+      
     elif page == 'Dashboard':
       comm_name = st.session_state['comm_name']
       # st.header(comm_name)
@@ -290,8 +289,6 @@ def main():
 
       with left_column:
         st.subheader('Number of community members: ')
-        st.subheader(number_users)
-
       with right_column:
         st.subheader('Date')
         date_range_option = st.selectbox("Select Date Range", options=["Anytime","Last 3 days", "Last Week", "Last Month"])
