@@ -161,6 +161,7 @@ def clean_data(uploaded_data):
     data = uploaded_data[2:]
     cleaned_data = []
      # Detect chat format based on the first valid message
+        # Detect chat format based on first valid message
     first_message = data[0] if data else ""
     is_ios = first_message.startswith("[") and "]" in first_message
     is_android = not is_ios and re.match(r"\d{2}/\d{2}/\d{4}, \d{2}:\d{2} -", first_message)
@@ -168,24 +169,58 @@ def clean_data(uploaded_data):
     for line in data:
         try:
             if is_ios:
-                # iOS Format: [25/06/2024, 03:25:33] ~ User: Message
+                # iOS Format: [24/06/2024, 16:10:18] ~ User: Message
                 match = re.match(r"\[(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}:\d{2})\] ~? (.*?): (.*)", line)
             elif is_android:
                 # Android Format: 24/02/2023, 10:38 - User: Message
                 match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}) - (.*?): (.*)", line)
             else:
-                continue  # Skip lines that don't match
+                continue  # Skip lines that don't match the format
 
             if match:
                 date_part, time_part, member, message = match.groups()
                 
-                # Standardize member name (remove "~" if exists)
+                # Remove leading "~" in iOS names
                 member = member.strip("~").strip()
+
+                # Filter out system messages & empty messages
+                if not message.strip() or "Waiting for this message" in message or "image omitted" in message:
+                    continue
 
                 cleaned_data.append([date_part, time_part, member, message])
         
         except Exception as e:
             print(f"Skipping line due to error: {e}")
+
+    # Convert to DataFrame
+    df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
+    
+    # ✅ Convert date column
+    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y")
+
+    # ✅ Convert time column correctly for heatmap
+    df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
+
+    # ✅ Extract hour for heatmap
+    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
+
+    # ✅ Extract day of the week and month for analytics
+    df["dayofweek"] = df["date"].dt.day_name()
+    df["month"] = df["date"].dt.month_name()
+
+    # ✅ Store new and exited members in session state
+    new_members = df[df["message"].str.contains("added|invited|joined", case=False, na=False)]
+    exited_members = df[df["message"].str.contains("left|removed", case=False, na=False)]
+
+    st.session_state["new_members_count"] = new_members
+    st.session_state["dropped_member_count"] = exited_members
+
+    # ✅ Remove system messages (group changes, admin messages)
+    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over"]
+    df = df[~df["message"].str.contains("|".join(system_keywords), case=False, na=False)]
+
+    # ✅ Drop NaN values after removing system messages
+    df.dropna(subset=["message"], inplace=True)
     # for line in data:
     #     # Extract everything between the square brackets, which includes date and time
     #     datetime_str = line.split("]")[0][1:]  # Removes the opening '['
@@ -210,26 +245,7 @@ def clean_data(uploaded_data):
     #         message = messages[colon_index+1:].strip()
     #     cleaned_data.append([date_part, time_part, member, message])
 
-    df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
-    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y")
-    df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
-
-    # Store new members and exited members in session state
-    new_members = df[df["message"].str.contains("added|invited|joined", case=False, na=False)]
-    exited_members = df[df["message"].str.contains("left|removed", case=False, na=False)]
-
-    st.session_state["new_members_count"] = new_members
-    st.session_state["dropped_member_count"] = exited_members
-
-    # Remove system messages
-    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over"]
-    df = df[~df["message"].str.contains("|".join(system_keywords), case=False, na=False)]
     
-    # Extract hour, day, and month for analytics
-    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
-    df["dayofweek"] = df["date"].dt.day_name()
-    df["month"] = df["date"].dt.month_name()
-
     # df['date'] = df['date'].apply(is_valid)
     # df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
     # df['date'] = df['date'].dt.strftime('%m/%d/%Y')
