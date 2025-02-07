@@ -236,7 +236,7 @@ def clean_data(uploaded_data):
     st.session_state["dropped_member_count"] = exited_members
 
     # ✅ Remove system messages (group changes, admin messages)
-    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over"]
+    system_keywords = ["added", "removed", "left", "changed", "created", "pinned", "admin", "group has over", "image omitted", 'Waiting for this message. This may take a while.']
     df = df[~df["message"].str.contains("|".join(system_keywords), case=False, na=False)]
 
     # ✅ Drop NaN values after removing system messages
