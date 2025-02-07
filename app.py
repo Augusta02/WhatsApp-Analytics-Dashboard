@@ -269,14 +269,8 @@ def main():
     elif page == 'Dashboard':
       comm_name = st.session_state['comm_name']
       st.markdown(f"<h1 style='text-align: center; color: white;'>{st.session_state['comm_name'].upper()}</h1>", unsafe_allow_html=True)  
-      st.markdown('##')
+      st.markdown('####')
 
-      # # if 'number_users' in st.session_state:
-      # if st.session_state.number_users is not None:
-      #   # number_users = st.session_state['number_users']
-      #   st.subheader(st.session_state.number_users)
-      # else:
-      #   st.write('Please go back to home page to enter the number of community members')
 
       # date 
       if 'cleaned_data' in st.session_state:
