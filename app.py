@@ -271,12 +271,12 @@ def main():
       st.markdown(f"<h1 style='text-align: center; color: white;'>{st.session_state['comm_name'].upper()}</h1>", unsafe_allow_html=True)  
       st.markdown('##')
 
-      # if 'number_users' in st.session_state:
-      if st.session_state.number_users is not None:
-        st.subheader("Number of community members:")
-        st.title(st.session_state.number_users)
-      else:
-        st.write('Please go back to home page to enter the number of community members')
+      # # if 'number_users' in st.session_state:
+      # if st.session_state.number_users is not None:
+      #   # number_users = st.session_state['number_users']
+      #   st.subheader(st.session_state.number_users)
+      # else:
+      #   st.write('Please go back to home page to enter the number of community members')
 
       # date 
       if 'cleaned_data' in st.session_state:
@@ -288,6 +288,10 @@ def main():
 
       with left_column:
         st.subheader('Number of community members: ')
+        if st.session_state.number_users is not None:
+          st.write(st.session_state.number_users)
+        else:
+          st.write('Please go back to home page to enter the number of community members')
       with right_column:
         st.subheader('Date')
         date_range_option = st.selectbox("Select Date Range", options=["Anytime","Last 3 days", "Last Week", "Last Month"])
