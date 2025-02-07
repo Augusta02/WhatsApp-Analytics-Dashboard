@@ -209,6 +209,7 @@ def clean_data(uploaded_data):
             print(f"Skipping line due to error: {e}")
 
     # Convert to DataFrame
+    df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
     df["date"] = df["date"].apply(is_valid)  # Validate before conversion
     df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y", errors="coerce")
 
