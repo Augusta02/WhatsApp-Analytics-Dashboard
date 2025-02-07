@@ -289,7 +289,7 @@ def main():
       with left_column:
         st.subheader('Number of community members: ')
         if st.session_state.number_users is not None:
-          st.markdown(f"<h2 style='text-align: left; font-weight: bold;'>{st.session_state.number_users}</h2>", unsafe_allow_html=True)
+          st.markdown(f"<h3 style='text-align: left; font-weight: bold;'>{st.session_state.number_users}</h3>", unsafe_allow_html=True)
         else:
           st.write('Please go back to home page to enter the number of community members')
       with right_column:
