@@ -289,7 +289,7 @@ def main():
       with left_column:
         st.subheader('Number of community members: ')
         if st.session_state.number_users is not None:
-          st.write(st.session_state.number_users)
+          st.title(st.session_state.number_users)
         else:
           st.write('Please go back to home page to enter the number of community members')
       with right_column:
