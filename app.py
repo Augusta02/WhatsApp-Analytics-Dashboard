@@ -160,29 +160,55 @@ def clean_data(uploaded_data):
 # create list of list strucures that removes frst two meesgaes 
     data = uploaded_data[2:]
     cleaned_data = []
-    for line in data:
-        # Extract everything between the square brackets, which includes date and time
-        datetime_str = line.split("]")[0][1:]  # Removes the opening '['
-        # Separate date and time
-        if ", " in datetime_str:
-            parts = datetime_str.split(", ")
-            if len(parts) >= 2:
-                    date_part = parts[0]
-                    time_part = parts[1] # Join remaining parts if there are more than one
-            else:
-                    print("Skipping line due to unexpected format:", line)
-                    continue
-        # Extract member and message
-        line_remainder = line[len(datetime_str) + 2:]  # Skip past "] " to get the rest of the line
-        member = line_remainder.split(":")[0].strip()  # Member is before the first ":"
-        if member.startswith("~"):
-              member = member[1:].strip()
+     # Detect chat format based on the first valid message
+    first_message = data[0] if data else ""
+    is_ios = first_message.startswith("[") and "]" in first_message
+    is_android = not is_ios and re.match(r"\d{2}/\d{2}/\d{4}, \d{2}:\d{2} -", first_message)
 
-        messages = line_remainder[len(member)+1:].strip()
-        colon_index = messages.find(":")
-        if colon_index >= -1:
-            message = messages[colon_index+1:].strip()
-        cleaned_data.append([date_part, time_part, member, message])
+    for line in data:
+        try:
+            if is_ios:
+                # iOS Format: [25/06/2024, 03:25:33] ~ User: Message
+                match = re.match(r"\[(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}:\d{2})\] ~? (.*?): (.*)", line)
+            elif is_android:
+                # Android Format: 24/02/2023, 10:38 - User: Message
+                match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}) - (.*?): (.*)", line)
+            else:
+                continue  # Skip lines that don't match
+
+            if match:
+                date_part, time_part, member, message = match.groups()
+                
+                # Standardize member name (remove "~" if exists)
+                member = member.strip("~").strip()
+
+                cleaned_data.append([date_part, time_part, member, message])
+        
+        except Exception as e:
+            print(f"Skipping line due to error: {e}")
+    # for line in data:
+    #     # Extract everything between the square brackets, which includes date and time
+    #     datetime_str = line.split("]")[0][1:]  # Removes the opening '['
+    #     # Separate date and time
+    #     if ", " in datetime_str:
+    #         parts = datetime_str.split(", ")
+    #         if len(parts) >= 2:
+    #                 date_part = parts[0]
+    #                 time_part = parts[1] # Join remaining parts if there are more than one
+    #         else:
+    #                 print("Skipping line due to unexpected format:", line)
+    #                 continue
+    #     # Extract member and message
+    #     line_remainder = line[len(datetime_str) + 2:]  # Skip past "] " to get the rest of the line
+    #     member = line_remainder.split(":")[0].strip()  # Member is before the first ":"
+    #     if member.startswith("~"):
+    #           member = member[1:].strip()
+
+    #     messages = line_remainder[len(member)+1:].strip()
+    #     colon_index = messages.find(":")
+    #     if colon_index >= -1:
+    #         message = messages[colon_index+1:].strip()
+    #     cleaned_data.append([date_part, time_part, member, message])
 
     df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
 
