@@ -216,13 +216,15 @@ def clean_data(uploaded_data):
     df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y", errors="coerce")
 
     # ✅ Convert time column correctly:
-    if is_ios:
-        df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
-    elif is_android:
-        df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
+    # if is_ios:
+    #     df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
+    # elif is_android:
+    #     df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
+    df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
 
     # ✅ Extract hour for heatmap
-    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
+    # df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
+    df['hour'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.hour
 
     # ✅ Extract day of the week and month for analytics
     df["dayofweek"] = df["date"].dt.day_name()
@@ -241,6 +243,8 @@ def clean_data(uploaded_data):
 
     # ✅ Drop NaN values after removing system messages
     df.dropna(subset=["message"], inplace=True)
+    df = anonymize_members(df, 'member', 'Member')
+    return df
 
     # for line in data:
     #     # Extract everything between the square brackets, which includes date and time
@@ -288,9 +292,9 @@ def clean_data(uploaded_data):
     # # df = df[~df['member'].str.contains('|'.join(values))]
     # df = df[~df['message'].str.contains('|'.join(keywords_to_remove))]
     # df.dropna(inplace=True)
-    df = anonymize_members(df, 'member', 'Member')
+    # df = anonymize_members(df, 'member', 'Member')
     
-    return df
+    # return df
 
     
 
