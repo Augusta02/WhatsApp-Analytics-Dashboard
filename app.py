@@ -169,8 +169,27 @@ def clean_data(uploaded_data):
     for line in data:
         try:
             if is_ios:
-                # iOS Format: [24/06/2024, 16:10:18] ~ User: Message
-                match = re.match(r"\[(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}:\d{2})\] ~? (.*?): (.*)", line)
+                # iOS Format: [24/02/2023, 10:38:32] User: Message
+                datetime_str = line.split("]")[0][1:]  # Removes the opening '['
+                if ", " in datetime_str:
+                    parts = datetime_str.split(", ")
+                    if len(parts) >= 2:
+                        date_part = parts[0]
+                        time_part = parts[1]
+                    else:
+                        print("Skipping line due to unexpected format:", line)
+                        continue
+
+                # ✅ Extract iOS member & message
+                line_remainder = line[len(datetime_str) + 2:]
+                member = line_remainder.split(":")[0].strip()
+                if member.startswith("~"):
+                    member = member[1:].strip()
+
+                messages = line_remainder[len(member) + 1:].strip()
+                colon_index = messages.find(":")
+                if colon_index >= -1:
+                    message = messages[colon_index + 1:].strip()
             elif is_android:
                 # Android Format: 24/02/2023, 10:38 - User: Message
                 match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}) - (.*?): (.*)", line)
@@ -193,13 +212,14 @@ def clean_data(uploaded_data):
             print(f"Skipping line due to error: {e}")
 
     # Convert to DataFrame
-    df = pd.DataFrame(cleaned_data, columns=["date", "time", "member", "message"])
-    
-    # ✅ Convert date column
-    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y")
+    df["date"] = df["date"].apply(is_valid)  # Validate before conversion
+    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%Y", errors="coerce")
 
-    # ✅ Convert time column correctly for heatmap
-    df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
+    # ✅ Convert time column correctly:
+    if is_ios:
+        df["time"] = pd.to_datetime(df["time"], format="%H:%M:%S", errors="coerce").dt.time
+    elif is_android:
+        df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
 
     # ✅ Extract hour for heatmap
     df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
@@ -221,7 +241,7 @@ def clean_data(uploaded_data):
 
     # ✅ Drop NaN values after removing system messages
     df.dropna(subset=["message"], inplace=True)
-    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
+
     # for line in data:
     #     # Extract everything between the square brackets, which includes date and time
     #     datetime_str = line.split("]")[0][1:]  # Removes the opening '['
