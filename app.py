@@ -221,6 +221,7 @@ def clean_data(uploaded_data):
 
     # ✅ Drop NaN values after removing system messages
     df.dropna(subset=["message"], inplace=True)
+    df["hour"] = df["time"].apply(lambda x: x.hour if pd.notnull(x) else None)
     # for line in data:
     #     # Extract everything between the square brackets, which includes date and time
     #     datetime_str = line.split("]")[0][1:]  # Removes the opening '['
@@ -350,6 +351,7 @@ def main():
         st.subheader('Date')
         date_range_option = st.selectbox("Select Date Range", options=["Anytime","Last 3 days", "Last Week", "Last Month"])
         updated_data = filtered_data_by_date(cleaned_data,"date", date_range_option)
+        st.write(cleaned_data)
         previous_data = get_previous_dates(cleaned_data, 'date', date_range_option)
         st.markdown('####')
 
