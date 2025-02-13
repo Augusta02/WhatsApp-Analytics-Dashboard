@@ -246,55 +246,6 @@ def clean_data(uploaded_data):
     df = anonymize_members(df, 'member', 'Member')
     return df
 
-    # for line in data:
-    #     # Extract everything between the square brackets, which includes date and time
-    #     datetime_str = line.split("]")[0][1:]  # Removes the opening '['
-    #     # Separate date and time
-    #     if ", " in datetime_str:
-    #         parts = datetime_str.split(", ")
-    #         if len(parts) >= 2:
-    #                 date_part = parts[0]
-    #                 time_part = parts[1] # Join remaining parts if there are more than one
-    #         else:
-    #                 print("Skipping line due to unexpected format:", line)
-    #                 continue
-    #     # Extract member and message
-    #     line_remainder = line[len(datetime_str) + 2:]  # Skip past "] " to get the rest of the line
-    #     member = line_remainder.split(":")[0].strip()  # Member is before the first ":"
-    #     if member.startswith("~"):
-    #           member = member[1:].strip()
-
-    #     messages = line_remainder[len(member)+1:].strip()
-    #     colon_index = messages.find(":")
-    #     if colon_index >= -1:
-    #         message = messages[colon_index+1:].strip()
-    #     cleaned_data.append([date_part, time_part, member, message])
-
-    
-    # df['date'] = df['date'].apply(is_valid)
-    # df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
-    # df['date'] = df['date'].dt.strftime('%m/%d/%Y')
-    # df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
-
-    # new_members_count = df[df['message'].str.contains('added|joined|invited|joined using', case=False, na=False)][['date', 'message', 'member']]
-    # st.session_state['new_members_count'] = new_members_count
-    # # Extract names from messages where 'left' appears
-    # exited_members = df[df['message'].str.contains('left', case=False, na=False)][['date', 'message', 'member']]
-    # st.session_state['dropped_member_count'] = exited_members
-    # # df.drop(columns=['extracted_name', 'left_group'], inplace=True)
-    # df['hour'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.hour
-    # # Extract day of week (as integer) and month name from date column
-    # df['dayofweek'] = pd.to_datetime(df['date']).dt.day_name()
-
-    # # Get month name
-    # df['month'] = pd.to_datetime(df['date']).dt.month_name()
-    # keywords_to_remove=["You're now an admin", "left", "added", "removed", "changed", "created", "pinned", 'joined', "invited", "group has over","admin"]
-    # # df = df[~df['member'].str.contains('|'.join(values))]
-    # df = df[~df['message'].str.contains('|'.join(keywords_to_remove))]
-    # df.dropna(inplace=True)
-    # df = anonymize_members(df, 'member', 'Member')
-    
-    # return df
 
     
 
@@ -342,7 +293,10 @@ def main():
               st.session_state['cleaned_data'] = cleaned_data
 
               st.session_state.file_uploaded = True
-              st.success("File uploaded successfully! Processing the data...")
+              if st.session_state.cleaned_data is not None:
+                st.success("File uploaded successfully! Data Processing Complete.")
+              else:
+                st.success("Error In Processing File")
               
 
           except Exception as e:
@@ -375,7 +329,7 @@ def main():
         st.subheader('Date')
         date_range_option = st.selectbox("Select Date Range", options=["Anytime","Last 3 days", "Last Week", "Last Month"])
         updated_data = filtered_data_by_date(cleaned_data,"date", date_range_option)
-        st.write(cleaned_data)
+        # st.write(cleaned_data)
         previous_data = get_previous_dates(cleaned_data, 'date', date_range_option)
         st.markdown('####')
 
