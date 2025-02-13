@@ -164,7 +164,7 @@ def clean_data(uploaded_data):
         # Detect chat format based on first valid message
     first_message = data[0] if data else ""
     is_ios = first_message.startswith("[") and "]" in first_message
-    is_android = not is_ios and re.match(r"\d{2}/\d{2}/\d{4}, \d{2}:\d{2} -", first_message)
+    is_android = not is_ios and re.match(r"\d{2}/\d{2}/\d{4}, \d{1,2}:\d{2}(?:\s?[apAP][mM])? -", first_message)
 
     for line in data:
         try:
@@ -193,7 +193,7 @@ def clean_data(uploaded_data):
                 cleaned_data.append([date_part, time_part, member, message])
             elif is_android:
                 # Android Format: 24/02/2023, 10:38 - User: Message
-                match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}) - (.*?): (.*)", line)
+                match = re.match(r"(\d{2}/\d{2}/\d{4}), (\d{1,2}:\d{2}(?:\s?[apAP][mM])?) - (.*?): (.*)", line)
             else:
                 continue  # Skip lines that don't match the format
 
