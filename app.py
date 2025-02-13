@@ -217,7 +217,8 @@ def clean_data(uploaded_data):
     if is_ios:
         df["time"] = pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
     elif is_android:
-        df["time"] = pd.to_datetime(df["time"], format="%H:%M", errors="coerce").dt.time
+        df["time"] = pd.to_datetime(df["time"], errors="coerce", infer_datetime_format=True).dt.time
+
     # df['time'] =  pd.to_datetime(df['time'].str.strip(), format='%H:%M:%S', errors='coerce').dt.time
     # df['time'] = pd.to_datetime(df['time'], format='%H:%M', errors='coerce').dt.time
 
