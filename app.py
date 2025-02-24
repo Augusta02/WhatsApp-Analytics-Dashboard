@@ -5,13 +5,10 @@ import textblob as TextBlob
 import re
 from datetime import datetime, timedelta
 import altair as alt
-import torch
-from transformers import pipeline
 pd.options.mode.chained_assignment = None  # default='warn'
 from wordcloud import WordCloud
 from nltk.corpus import stopwords
-import nltk
-from keyword_extract_LLM import extractor as extract 
+import nltk 
 import matplotlib.pyplot as plt
 
 
@@ -448,50 +445,15 @@ def main():
       st.altair_chart(heatmap, use_container_width=True)
 
 
-      # Initialize the language model pipeline
-      kwargs = dict(max_new_tokens=206, do_sample=True, temperature=0.3, top_k=50, top_p=0.95)
-      pipe = pipeline("text-generation", model="HuggingFaceH4/zephyr-7b-alpha", torch_dtype=torch.bfloat16, device_map="auto")
 
-      # Initialize the Keyword Extractor
-      extractor = extract.KeywordExtractor(pipeline=pipe)
-      # Function to extract keywords from messages
-      def extract_keywords(messages):
-          text = " ".join(messages)  # Combine all messages into one string
-          keywords = extractor.extractor(text=text, max_attempt=2, **kwargs)
-          keywords = text.split()  # Placeholder for actual keyword extraction
-          return keywords
-      
-      st.subheader("Popular Word")
-      
-      if 'message' in updated_data.columns:
-        messages = updated_data['message'].dropna().tolist()
-        
-        # Extract relevant keywords
-        keywords = extract_keywords(messages)
-        
-        # Convert keywords to a format suitable for word cloud
-        keyword_text = " ".join(keywords)
-        
-        # Generate and visualize WordCloud
-        wordcloud = WordCloud(width=800, height=400, background_color="white").generate(keyword_text)
-
-        plt.figure(figsize=(10, 5))
-        plt.imshow(wordcloud, interpolation="bilinear")
-        plt.axis("off")
-        st.pyplot(plt)
-      else:
-          st.warning("No messages found to analyze.")
-
-
-
-      # st.subheader("Popular Words")
-      # # Visualize Popular words
-      # words = generate_wordcloud(updated_data, 'message')
-      # # Display wordcloud in Streamlit
-      # plt.figure(figsize=(10, 5))
-      # plt.imshow(words, interpolation='bilinear')
-      # plt.axis('off')
-      # st.pyplot(plt)
+      st.subheader("Popular Words")
+      # Visualize Popular words
+      words = generate_wordcloud(updated_data, 'message')
+      # Display wordcloud in Streamlit
+      plt.figure(figsize=(10, 5))
+      plt.imshow(words, interpolation='bilinear')
+      plt.axis('off')
+      st.pyplot(plt)
 
   
 
