@@ -8,3 +8,8 @@ nltk
 matplotlib
 seaborn 
 scikit-learn 
+torch
+torchvision
+torchaudio
+transformers
+scipy
