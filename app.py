@@ -11,7 +11,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 from wordcloud import WordCloud
 from nltk.corpus import stopwords
 import nltk
-from keyword_extract_llm import extractor as extract # type: ignore
+from keyword_extract_LLM import extractor as extract 
 import matplotlib.pyplot as plt
 
 
