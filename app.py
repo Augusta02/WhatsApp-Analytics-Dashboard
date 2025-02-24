@@ -7,11 +7,11 @@ from datetime import datetime, timedelta
 import altair as alt
 import torch
 from transformers import pipeline
-from keyword_extract_llm import extractor as extract
 pd.options.mode.chained_assignment = None  # default='warn'
 from wordcloud import WordCloud
 from nltk.corpus import stopwords
 import nltk
+from keyword_extract_llm import extractor as extract # type: ignore
 import matplotlib.pyplot as plt
 
 
@@ -458,6 +458,7 @@ def main():
       def extract_keywords(messages):
           text = " ".join(messages)  # Combine all messages into one string
           keywords = extractor.extractor(text=text, max_attempt=2, **kwargs)
+          keywords = text.split()  # Placeholder for actual keyword extraction
           return keywords
       
       st.subheader("Popular Word")
