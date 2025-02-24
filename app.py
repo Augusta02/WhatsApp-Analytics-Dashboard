@@ -460,6 +460,8 @@ def main():
           keywords = extractor.extractor(text=text, max_attempt=2, **kwargs)
           return keywords
       
+      st.subheader("Popular Word")
+      
       if 'message' in updated_data.columns:
         messages = updated_data['message'].dropna().tolist()
         
