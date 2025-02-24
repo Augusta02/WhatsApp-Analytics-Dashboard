@@ -13,3 +13,4 @@ torchvision
 torchaudio
 transformers
 scipy
+keyword_extract_llm
